@@ -1,3 +1,34 @@
+# Phonorm
+
+[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org) [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+This repository contains the following files
+
+```text
++-- data
+  | +-- extra
+      - contains wikipedia dataset with commonly misspelled words
+  | +-- preprocessed
+      - contains preprocessed datasets
+  | +-- raw
+      - contains raw data (not preprocessed)
++-- docs
+  - Contains presentation and writeup
++-- modeling
+  - Contains Jupyter notebooks used for modeling
++-- models
+  - Contains saved models
++-- phonorm
+  - Contains utilities and code for modeling
++-- preprocessing
+  - Contains utilities and code for preprocessing data
++-- .gitignore
++-- README.md
++-- requirements.txt
+```
+
 # CFI phonetic normalization
 
 This repository contains all necessary documents/scripts etc. for the 'phonetic normalization' project at the Centre for Innovation @ Leiden University.
