@@ -1,5 +1,5 @@
 numpy
+pandas
+nltk
 matplotlib
-regex
-mwxml
-beautifulsoup4
+keras
