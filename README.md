@@ -4,9 +4,9 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-**phonorm** is an exploratory project in which we apply a Recurrent Neural Network to the problem of [phonetic normalization](http://mlwiki.org/index.php/Phonetic_Normalization). The need for such a model arose from the type of conversations we observed in our chatbot [ChitChat](https://bitbucket.org/arvid/chitchat), as we observed a lot of text that is written much like it is spoken. Current phonetic algorithms, such as [Soundex](https://en.wikipedia.org/wiki/Soundex) are too aggressive and do not work well in our use case.
+**phonorm** is an exploratory project in which we apply a Recurrent Neural Network to the problem of [phonetic normalization](http://mlwiki.org/index.php/Phonetic_Normalization). The need for such a model arose from the type of conversations we observed in our chatbot [ChitChat](https://bitbucket.org/arvid/chitchat) developed at the [Leiden University Center for Innovation](https://www.centre4innovation.org/), as we observed a lot of text that is written much like it is spoken. Current phonetic algorithms, such as [Soundex](https://en.wikipedia.org/wiki/Soundex) are too aggressive and do not work well in our use case.
 
-You can find our writeup of the project [here](https://github.com/JasperHG90/phonorm/docs/writeup/phonorm_writeup.pdf). Comments are welcome and can either be left in the issues section or can be sent to jasperginn[at]gmail.com
+You can find our writeup of the project [here](https://github.com/JasperHG90/Phonorm/blob/master/docs/writeup/phonorm_writeup.pdf). Comments are welcome and can either be left in the issues section or can be sent to jasperginn[at]gmail.com
 
 This repository contains the following files
 
