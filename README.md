@@ -35,7 +35,7 @@ This repository contains the following files
 
 ## A note on training the model
 
-If you want to retrain the model using the data in this repository, be aware that training will be **slow** on CPUs.
+If you want to retrain the model using the data in this repository, be aware that training will be **slow** on CPUs. You should consider using a GPU.
 
 ## Setting up
 
@@ -65,48 +65,22 @@ conda activate phonorm
 conda install --yes --file requirements.txt
 ```
 
-4. Install 'pywiktionary' from git
+4. (optional) Install 'pywiktionary' from git
+
+```shell
+pip install git+https://github.com/abuccts/wikt2pron.git
+```
 
 5. (optional) install `tensorflow-gpu` if you are using a GPU
 
+```shell
+conda install tensorflow-gpu
+```
 
+At this point, your environment ready to be used.
 
+## Using phonorm
 
+If you want to train your own models, you should check out the [modeling](https://github.com/JasperHG90/phonorm/tree/master/modeling) folder for examples.
 
-# CFI phonetic normalization
-
-This repository contains all necessary documents/scripts etc. for the 'phonetic normalization' project at the Centre for Innovation @ Leiden University.
-
-## Project documents
-
-You can find:
-
-- The [datasets overview](https://docs.google.com/document/d/1t7gr5FqlqpbCCpqlIAHmqN2tkgVAWNp3kDaN6UhLZ7g/edit?usp=sharing) here
-- The [project overview](https://docs.google.com/document/d/1WoyhyAnES8HbDhgiUsLFy0G7z_eu-yCfJwfwD02-LQg/edit?usp=sharing) here
-- The [research document](https://docs.google.com/document/d/1gaI7TUZnQYrR1PI8Cg_ejRpm5EgsXa1b2uunEhhNNKI/edit?usp=sharing) here
-
-## Basic information
-
-It would help to read up on [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) and [Extended Speech Assessment Methods Phonetic Alphabet](https://en.wikipedia.org/wiki/X-SAMPA)
-
-Also check out the [phonetic alphabet for English dialects](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart_for_English_dialects)
-
-## Folders in this project
-
-- **code**: contains python code to extract phonetic data from wikipedia dumps & to train NN on resulting data
-- **readings**: academic articles relevant to the project
-- **img**: images, plots etc. relevant to the project
-- **data**: contains dataset used for this project
-- **env**: dockerfiles used to (re)-create the project environment
-- **phonorm**: python module containing reproducible code and examples for the phonetic normalizer
-
-## Prerequisites
-
-- Python 3
-- [Wikt2Pron](https://github.com/abuccts/wikt2pron) module (used to extract phonetic data from wikipedia)
-- Jupyter (to run jupyter notebooks)
-- [Wikipedia dump](https://dumps.wikimedia.org/enwiktionary/) (extracted)
-
-## Further reading
-
-Additional notes, comments and descriptions can be found in the Jupyter notebooks or README files in the individual folders.
+If you want to use the pre-trained models, please see the [examples](https://github.com/JasperHG90/phonorm/tree/master/examples/) folder.
