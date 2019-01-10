@@ -3,6 +3,7 @@
 [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org) [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![DOI](https://zenodo.org/badge/165067846.svg)](https://zenodo.org/badge/latestdoi/165067846)
 
 **phonorm** is an exploratory project in which we apply a Recurrent Neural Network to the problem of [phonetic normalization](http://mlwiki.org/index.php/Phonetic_Normalization). The need for such a model arose from the type of conversations we observed in our chatbot [ChitChat](https://bitbucket.org/arvid/chitchat) developed at the [Leiden University Center for Innovation](https://www.centre4innovation.org/), as we observed a lot of text that is written much like it is spoken. Current phonetic algorithms, such as [Soundex](https://en.wikipedia.org/wiki/Soundex) are too aggressive and do not work well in our use case.
 
