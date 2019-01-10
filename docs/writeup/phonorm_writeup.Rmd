@@ -1,7 +1,7 @@
 ---
-title: 'Phonorm: Phonetic Text Normalization using Recurrent Neural Networks'
-author: "Jasper Ginn, Arvid Halma, Aaron hislastname & Boaz Manger"
-date: "December 18, 2018"
+title: 'Phonetic Text Normalization using Recurrent Neural Networks'
+author: "Jasper Ginn, Arvid Halma, Aaron Swaving & Boaz Manger"
+date: "January 10, 2019"
 output:
   pdf_document: #default
     pandoc_args: [
@@ -23,6 +23,7 @@ header-includes:
  \newcommand{\blandscape}{\begin{landscape}}
  \newcommand{\elandscape}{\end{landscape}}
 bibliography: bib.bib
+csl: ieee.csl
 #nocite: |
 #  @UKGOVGPG
 ---
@@ -38,9 +39,9 @@ library(kableExtra)
 library(ggplot2)
 ```
 
-Text normalization is the application of linguistic models to text with the aim of standardizing words, which are also referred to as **tokens**. For example, tokens may refer to the same underlying concepts but can be spelled in a different way. Hence, the aim of text normalization is to reduce tokens to a common form. Examples of normalization are **stemming** and **lemmatization**. The former tries to map words to tokens by removing the suffix of a word (e.g. 'economy', 'economist' and 'economic' all map to 'econom'), and the latter approach attempts to bring back each token to its dictionary representation.
+Text normalization is the application of linguistic models to text with the aim of reducing tokens to a common form. For example, words may refer to the same underlying concepts but can be spelled in a different way. Examples of normalization are stemming and lemmatization. The former tries to map words to tokens by removing the suffix of a word (e.g. 'economy', 'economist' and 'economic' all map to 'econom'), and the latter approach attempts to bring back each token to its dictionary representation.
 
-**Phonetic normalization** attempts to reduce words that sound similar to the same token [@bisani_joint-sequence_2008]. Due to the proliferation of social media, there has been a surge of interest in this type of normalization. Text found on social media such as Twitter, which is often referred to as *microtext*, has different challenges than regular, well-written text. It is characterized by a casual writing style, colloquial tone, relaxed spelling, reliance on emoticons, use of out of vocabulary (OOV) words such as acronyms and emphasis on emotional undercurrents for dramatic effect. [See e.g. @doval_performance_2018, @xue_normalizing_2011, @lopez-ludena_architecture_2012, @li_normalization_2012, @satapathy_phonetic-based_2017, @khoury_microtext_2015, @khoury_phonetic_2015].
+Phonetic normalization attempts to map similar-sounding words to a common form [@bisani_joint-sequence_2008]. Due to the proliferation of social media, there has been a surge of interest in this type of normalization. Text found on social media such as Twitter, which is often referred to as *microtext*, has different challenges than regular, well-written text. It is characterized by a casual writing style, colloquial tone, relaxed spelling, reliance on emoticons, use of out of vocabulary (OOV) words such as acronyms and emphasis on emotional undercurrents for dramatic effect. [See e.g. @doval_performance_2018, @xue_normalizing_2011, @lopez-ludena_architecture_2012, @li_normalization_2012, @satapathy_phonetic-based_2017, @khoury_microtext_2015, @khoury_phonetic_2015].
 
 Our interest in this topic is related to the development of our chatbot `ChitChat` [@halma_arvid_nodate], which we have implemented in for several international organizations in countries in which English is not the first language. One of our findings is that many of the conversations are characterized by a use of English that strongly resembles its phonetic form. Furthermore, while we find that the language used to converse with our chatbot bears some similarities to microtext, the language used is often more formal. This is an important distinction because strict phonetic normalization as we implement it is not suited for the informal style of microtext [see @doval_performance_2018].
 
