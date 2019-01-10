@@ -28,7 +28,7 @@ csl: ieee.csl
 #  @UKGOVGPG
 ---
 
-# Introduction
+# Introduction^[All code and data available on GitHub.^[You can find the repository at <https://github.com/JasperHG90/phonorm>]]
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(fig.pos="H", fig.width = 5, fig.height = 4,
@@ -41,19 +41,19 @@ library(ggplot2)
 
 Text normalization is the application of linguistic models to text with the aim of reducing tokens to a common form. For example, words may refer to the same underlying concepts but can be spelled in a different way. Examples of normalization are stemming and lemmatization. The former tries to map words to tokens by removing the suffix of a word (e.g. 'economy', 'economist' and 'economic' all map to 'econom'), and the latter approach attempts to bring back each token to its dictionary representation.
 
-Phonetic normalization attempts to map similar-sounding words to a common form [@bisani_joint-sequence_2008]. Due to the proliferation of social media, there has been a surge of interest in this type of normalization. Text found on social media such as Twitter, which is often referred to as *microtext*, has different challenges than regular, well-written text. It is characterized by a casual writing style, colloquial tone, relaxed spelling, reliance on emoticons, use of out of vocabulary (OOV) words such as acronyms and emphasis on emotional undercurrents for dramatic effect. [See e.g. @doval_performance_2018, @xue_normalizing_2011, @lopez-ludena_architecture_2012, @li_normalization_2012, @satapathy_phonetic-based_2017, @khoury_microtext_2015, @khoury_phonetic_2015].
+Phonetic normalization attempts to map similar-sounding words to a common form [@bisani_joint-sequence_2008]. Our interest in this topic is related to the development of our chatbot `ChitChat` [@halma_arvid_nodate], which we have implemented in for several international organizations in countries in which English is not the first language. One of our findings is that many of the conversations are characterized by a use of English that strongly resembles its phonetic form. For example, a sentence may contain the word 'aksiom', whereas the author means to write 'axiom'.
 
-Our interest in this topic is related to the development of our chatbot `ChitChat` [@halma_arvid_nodate], which we have implemented in for several international organizations in countries in which English is not the first language. One of our findings is that many of the conversations are characterized by a use of English that strongly resembles its phonetic form. Furthermore, while we find that the language used to converse with our chatbot bears some similarities to microtext, the language used is often more formal. This is an important distinction because strict phonetic normalization as we implement it is not suited for the informal style of microtext [see @doval_performance_2018].
+Due to the proliferation of social media messaging, there has been a surge of interest in phonetic normalization. Text found on social media such as Twitter, which is often referred to as *microtext*, has different challenges than regular, well-written text. It is characterized by a casual writing style, colloquial tone, relaxed spelling, reliance on emoticons, use of out of vocabulary (OOV) words such as acronyms and emphasis on emotional undercurrents for dramatic effect. [See e.g. @doval_performance_2018, @xue_normalizing_2011, @lopez-ludena_architecture_2012, @li_normalization_2012, @satapathy_phonetic-based_2017, @khoury_microtext_2015, @khoury_phonetic_2015]. While we find that the language used to converse with our chatbot bears some similarities to microtext, the language used is often more formal. This is an important distinction because strict phonetic normalization as we implement it is not suited for the informal style of microtext [see @doval_performance_2018].
 
-In this paper, we present an approach to phonetic normalization that employs a standard encoder-decoder framework common to machine translation tasks. In this setting, the inputs are characters of English words, and the outputs are the pronunciations of these words in various formats. Hence, the goal of this paper is to show that a mapping can be learned from written to phonetic English by using character-level Recurrent Neural Networks (RNNs). Because RNNs excel at learning sequential patterns, they are a natural choice when considering the problem of phonetic normalization. RNNs have shown promise in diverse applications of Natural-Language Processing (NLP). For example, X and Y showed that RNNs do well in translation tasks. One benefit of such an approach is that the mapping is learned without specific expertise about such a task. Examples of previous work with respect to text normalization and deep learning are e.g. @min_ncsu_sas_wookhee:_2015, @chrupala_normalizing_nodate and @jaitly_rnn_2017].
+In this paper, we present an approach to phonetic normalization that employs a standard encoder-decoder framework common to machine translation tasks. In this setting, the inputs are characters of English words, and the outputs are the pronunciations of these words in various formats. Hence, the goal of this paper is to show that a mapping can be learned from written to phonetic English by using character-level Recurrent Neural Networks (RNNs). One benefit of such an approach is that the mapping is learned without specific expertise about such a task. Examples of previous work with respect to text normalization and deep learning are  @min_ncsu_sas_wookhee:_2015, @chrupala_normalizing_nodate and @jaitly_rnn_2017].
 
-This paper is structured as follows. The first section gives a short description of RNNs. We then outline the data sets, models and evaluation metrics used in our experiment. Section three interprets the results. We close by offering several ways to improve the model. We use two publicly available datasets and have have made all the code and data available on GitHub.^[You can find the repository at <https://github.com/JasperHG90/phonorm>]
+This paper is structured as follows. (2) gives a short description of RNNs. (3) outlines the data sets, models and evaluation metrics used in our experiment. (4) interprets the results, and (5) concludes by offering several ways to improve the model. 
 
 # Recurrent neural networks
 
-Recurrent neural networks (RNN) are a type of neural network that model sequences such as series of words or characters. The RNN takes both an input vector, such as a sequence of input characters, as well as outputs that occur earlier in the sequence. Therefore, at timestep $t$, the results of timestep $t-1$ are fed into the network to learn patterns, or sequences, that are inherent to the data.
+Recurrent neural networks (RNN) are a type of neural network that model sequences such as series of words or characters. The RNN takes both an input vector, such as a sequence of input characters, as well as outputs that occur earlier in the sequence. Therefore, at timestep $t$, the results of timestep $t-1$ are fed into the network to learn patterns.
 
-In principle, the length of the sequence is arbritrary, and the input length $T_x$ does not have to match the output length $T_y$. This is convenient for language modeling because, for example, an English word rarely has the same length as its counterpart in another language.
+In principle, the length of the sequence is arbritrary, and the input length $T_x$ does not have to match the output length $T_y$. This is convenient for language modeling because, for example in the case of machine translation, an English sentence rarely has the same length as its counterpart in another language.
 
 Like other models that consist of many layers, RNNs suffer from the 'vanishing gradient' problem. This means that they cannot represent long-range dependencies very well, and that, for example, a verb that occurs early in the sentence may not be 'memorized' until the end of the sentence, which renders the RNN unable to establish the connection between the verb and a noun or adjective that refers to it. This problem is addressed by making use of RNNs that are able to capture long-range dependencies such as Long Short-Term Memory (LSTM) layers or Gated Recurrent Units (GRU). [@hochreiter_long_1997, @cho_learning_2014]. In either one of these models, the model can be *unidirectional* or *bidirectional*. In the latter case, the model uses information from both earlier as well as later in the sequence to learn patterns [@schuster_bidirectional_1997].
 
@@ -67,18 +67,18 @@ We consider two separate datasets that are subdivided into three categories:
 
 ### cmudict
 
-a dataset containing $133.031$ words mapping English words to their phonetic representation using ARPAbet phoneme set  [@noauthor_cmu_2018]. We remove words containing digits, special punctuation and special characters. The final dataset contains $123.612$ words. The data are subdivided into two data sets:
+This is a dataset containing $133.031$ words mapping English words a phonetic representation using ARPAbet phoneme set notation [@carnegie_mellon_university_cmu_nodate]. We remove words containing digits, special punctuation and special characters. The final dataset contains $123.612$ words. The data are subdivided into two data sets:
 
 - *Multiple:* treats phonemes as individual characters. That is, a word like 'abate' is translated as 'AA B EY T' and would therefore contain the vocabulary entries 'AA', 'B', 'EY' and 'T'.  
-- *Single:* the special arrangement between letters in the reference are ignored. Hence, the same word ('abate') now contains the vocabulary entries 'A', 'B', 'T', 'E', 'Y'.
+- *Single:* in this case, the phonemes are ignored. Hence, the same word ('abate') now contains the vocabulary entries 'A', 'B', 'T', 'E', 'Y'.
 
 This distinction between the datasets allow us to observe whether it is useful to retain the phonemes or not.
 
 ### Wiktionary
 
-This is a dataset that is retrieved from the wiktionary dump file [@wikipedia_wikimedia_nodate]. We used the 'wikt2pron' python module [@xiong_toolkit_2018] to extract all English words from the dump from $01-11-2018$. The data contains $46.675$ words with pronunciations in XSAMPA format after removal of entries containing digits and special characters.
+This is a dataset that is retrieved from the wiktionary dump file [@wikipedia_wikimedia_nodate]. We use the 'wikt2pron' python module [@xiong_toolkit_2018] to extract all English words from the dump from $01-11-2018$. The data contains $46.675$ words with pronunciations in XSAMPA format after removal of entries containing digits and special characters.
 
-One downside of the wikt2pron module (or from the wiktionary data set) is that it does not distinguish between dialects. That is, the module returns a python dictionary for each word as well as up to $20$ pronunciation entries without specifying whether these are British-English, American-English or, for example, Australian-English. Clearly, this is an issue because British homophones do not map to American homophones one-to-one.
+One downside of the wikt2pron module (or from the wiktionary data set) is that it does not distinguish between dialects. That is, the module returns a python dictionary for each word as well as up to $20$ pronunciation entries without specifying whether these are British-English, American-English or, for example, Australian-English. Clearly, this is an issue because British homophones do not map to American homophones one-to-one. For the purposes of this analysis, we simply pick the first entry for each word.
 
 ## Evaluation metrics
 
@@ -92,11 +92,9 @@ Typically, the BLEU score is a combined metric measuring the overlap of one-gram
 
 ### Accuracy in detecting homophones
 
-A natural way to test the accuracy of the model is to evaluate its performance on homophones. These are words that are spelled differently but that are pronounced the same. We define three metrics to measure the performance of our models in detecting homophones, all of which are proportions $p$. These three metrics are as follows:
+One way to the accuracy of our model is to evaluate its performance on words that sound the same but that are spelled in different ways. Such words are called *homophones*. We define three metrics to measure the performance of our models in detecting homophones, all of which are proportions. These three metrics are as follows:
 
 1. **all equal**: the proportion of observations for which all homophones map to the same pronunciation.
-2. **equal to reference**: the proportion of observations for which all homophones are equal to the reference.
-3. **largest subgroup**: the average of the largest sub-group of unique pronunciations for each example.
 
 Let $\theta_i$ be the value of the $i^{th}$ development set example. If all the predictions are equal, the value of $\theta_i = 1$, else, it equals $0$, then
 
@@ -105,6 +103,8 @@ $$
 p_{\text{ all equal}} = \frac{1}{n} \sum_{i=1}^n \theta_i
 $$
 
+2. **equal to reference**: the proportion of observations for which all homophones are equal to the reference.
+
 If we let $\theta_i$ be the value of the $j^{th}$ word out of $k$ words in the $i^{th}$ development set example, which equals $1$ if the $j^{th}$ word equals the reference and $0$ otherwise, then:
 
 $$
@@ -112,12 +112,16 @@ $$
 p_{\text{ equal to reference}} = \frac{1}{n} \sum_{i=1}^n \left[ \frac{1}{k} \sum_{j=1}^k \theta_i \right]
 $$
 
-Finally, if we let $u$ equal the largest subgroup of $k$ possible subgroups, where $k$ is the number of words in the $i^{th}$ development set example. Furthermore, if we let $\theta_i$ be the value of the $j^{th}$ word out of $k$ words in the $i^{th}$ development set example, which equals $1$ if the $j^{th}$ word equals the value of the largest subgroup $u$ and $0$ otherwise, then
+3. **largest subgroup**: the average of the largest sub-group of unique pronunciations for each example.
+
+If we let $u$ equal the largest subgroup of $k$ possible subgroups, where $k$ is the number of words in the $i^{th}$ development set example. Furthermore, if we let $\theta_i$ be the value of the $j^{th}$ word out of $k$ words in the $i^{th}$ development set example, which equals $1$ if the $j^{th}$ word equals the value of the largest subgroup $u$ and $0$ otherwise, then
 
 $$
 \tag{3}
 p_{\text{ largest subgroup}} = \frac{1}{n} \sum_{i=1}^n \left[\frac{1}{k} \sum_{j=1}^k \theta_i \right]
 $$
+
+These metrics measure related concepts. Clearly, a model that scores well on $p_{\text{equal to reference}}$ has a high detection rate for homophones, and at the same time the predictions are close to the actual pronunciation. For the purposes of this analysis, however, it is more important that the pronunciations are all equal to each other ($p_{\text{all equal}}$) than that they equal the actual pronunciation, as this metric still yields a good homophone detection rate while not imposing the strict condition that all predictions must be equal to the reference.
 
 ### Accuracy in recognizing similar-sounding misspelled words
 
@@ -135,7 +139,7 @@ This section describes the architecture of our models, all of which are trained 
 
 ### Hyperparameters and training
 
-All models are trained using stochastic gradient descent and Adam [@kingma_adam:_2014] with minibatch size $128$. The optimization metric is the *log-likelihood*. We apply dropout and recurrent dropout [@gal_theoretically_2015] with $0.1$ to both the encoder and decoder. We also use 'teacher forcing', meaning that instead of ingesting the predicted character generated at timestep $t-1$ to predict the next character in the sequence, we use the ground truth character [@lamb_professor_2016]. All models are trained for $10$ epochs on a single NVIDIA GTX 1060 with 6GB RAM.
+All models are trained using stochastic gradient descent and Adam [@kingma_adam:_2014] with minibatch size $128$. The optimization metric is the *log-likelihood*. We apply dropout and recurrent dropout [@gal_theoretically_2015] with a drop probability of $10$\% to both the encoder and decoder. We also use 'teacher forcing', meaning that instead of ingesting the predicted character generated at timestep $t-1$ to predict the next character in the sequence, we use the ground truth character [@lamb_professor_2016]. All models are trained for $10$ epochs on a single NVIDIA GTX 1060 with 6GB RAM.
 
 ```{r model details, eval=TRUE}
 ## Read model information directly from disk
@@ -171,7 +175,7 @@ kableExtra::kable(fit_opts_df,
                                   "striped"))
 ```
 
-### Encoder and decoder
+### Encoder and decoder setup
 
 The English words and their phonetic representation in our dataset are first converted to a one-hot-encoding (OHE). We then use a bidirectional LSTM that takes the OHE English words as input and that passes its internal state to the decoder. The decoder takes as its input the state vectors from the encoder as well as the OHE phonetic words. The decoder then generates the output sequence.
 
@@ -250,7 +254,7 @@ x_dev %>%
   group_by(identifier, wl) %>%
   summarize(avgbs = mean(bs4)) %>%
   ggplot(., aes(x=wl, y=avgbs, color = identifier, linetype = identifier)) +
-    geom_line(size=1, alpha=0.7) +
+    geom_line(size=1.2, alpha=0.7) +
     scale_color_brewer(palette = "Set2", name = "Dataset", labels = c("cmudict \n(multiple)", "cmudict \n(single)", "wiktionary")) +
     scale_linetype_discrete(name = "Dataset", labels = c("cmudict \n(multiple)", "cmudict \n(single)", "wiktionary")) +
     theme_bw() +
@@ -270,7 +274,7 @@ avgbleu <- x_dev %>%
 
 The models trained on the `cmudict` data vastly outperform the `wiktionary` data. The `cmudict (single)` model achieves an average BLEU score of `r avgbleu$mbsp[2]`, which is slightly higher than the `cmudict (multiple)` model at `r avgbleu$mbsp[1]`.
 
-Table $1$ below shows the performance of the models on the homophone test set. The `cmudict (single)` model outperforms the other models on all metrics. However, it is interesting that the models are much closer in terms of performance on the most import metric ($p_{\text{largest subgroup}}$) than on the other metrics. It should be noted that these metrics do not measure any possible erroneous mappings ('false positives'). Hence, it may be the case that the `wiktionary` model achieves this high score at the cost of making many more mistakes than the `cmudict` data.
+Table $2$ below shows the performance of the models on the homophone test set. The `cmudict (single)` model outperforms the other models on all metrics. However, it is interesting that the models are much closer in terms of performance on the most import metric ($p_{\text{largest subgroup}}$) than on the other metrics. It should be noted that these metrics do not measure any possible erroneous mappings ('false positives'). Hence, it may be the case that the `wiktionary` model achieves this high score at the cost of making many more mistakes than the `cmudict` data.
 
 ```{r homophones, eval=TRUE}
 scores <- x_hmp %>%
@@ -311,7 +315,7 @@ x_hmp %>%
             avg = mean(props_comp_to_hmphones)) %>%
   filter(n >= 10) %>%
   ggplot(., aes(x=l, y=avg, color = identifier, linetype = identifier)) +
-    geom_line(size=1, alpha=0.7) +
+    geom_line(size=1.2, alpha=0.7) +
     scale_color_brewer(palette = "Set2",
                        name = "Dataset",
                        labels = c("cmudict \n(multiple)", "cmudict \n(single)", "wiktionary")) +
@@ -352,7 +356,7 @@ As can be observed from table $2$, the `cmudict (single)` model again outperform
 
 # Discussion and conclusion
 
-The RNN approach to phonetic normalization is, as is shown above, succesful in its main objective. That is, the models succeed in creating sensible output, are good at mapping homophones to the same phonetic representation, and perform adequately on misspelled words. On all metrics, the `cmudict (single)` model outperforms the other models. This is a rather curious outcome, as one would expect the model that uses graphemes (`cmudict (multiple)`) to incorporate more information and hence perform better.
+The RNN approach to phonetic normalization is, as is shown above, succesful in its main objective. That is, the models succeed in creating sensible output, are good at mapping homophones to the same phonetic representation, and perform adequately on misspelled words. On all metrics, the `cmudict (single)` model outperforms the other models. This is a rather curious outcome, as one would expect the model that uses phonemes (`cmudict (multiple)`) to incorporate more information and hence perform better.
 
 There are several improvements to be made to the model. Firstly, there must be some noise in the data because it is not-context aware. This means that the model cannot learn the difference between, for example, a word like 'tear' (to tear a piece of paper) or 'tear' (he teared up). This type of word is called a 'heteronym'. Adding this kind of context awareness must be gauged from the sentence somehow, given that the models described in this paper deal exclusively with words.
 
