@@ -1,0 +1,172 @@
+,in,pred,out,equality,props_comp_to_outcome,props_comp_to_hmphones,props_all_equal
+0,hour; our,"/hO:/; /""aU@/","/""aU@(r\)/","[False, False]",0.0,0.5,0
+1,abbey; abby,"/@""bi:/; /""{b.i/","/""{b.i/","[False, True]",0.5,0.5,0
+2,hoed; hode,/h@Ud/; /h@Ud/,/h@Ud/,"[True, True]",1.0,1.0,1
+3,ascii; ascii,"/""{si.aI/; /""{si.aI/","/""{ski/","[False, False]",0.0,1.0,0
+4,bureaucrat; burocrat,"/bjU@""r\Qkr\@t/; /""bjU@r\@%kr\{t/","/""bjU@r\@kr\{t/","[False, False]",0.0,0.5,0
+5,four; fore; faugh; faw,/fO:/; /fO:/; /fO:/; /fO:/,/fO:/,"[True, True, True, True]",1.0,1.0,1
+6,be; bea,/bE/; /bi/,/bi:/,"[False, False]",0.0,0.5,0
+7,cum; come,/ku:m/; /k@Um/,/kVm/,"[False, False]",0.0,0.5,0
+8,french; french,/fr\EntS/; /fr\EntS/,/fr\Ent__S/,"[False, False]",0.0,1.0,0
+9,jordan; jordan,/d__ZO:d@n/; /d__ZO:d@n/,"/""dZO:d@n/","[False, False]",0.0,1.0,0
+10,fourth; forth,/fO:T/; /fO:T/,/fO:T/,"[True, True]",1.0,1.0,1
+11,write; rite; wright; wright,/r\aIt/; /r\aIt/; /r\aIt/; /r\aIt/,/r\aIt/,"[True, True, True, True]",1.0,1.0,1
+12,welsh; welsh,/wElS/; /wElS/,/wElS/,"[True, True]",1.0,1.0,1
+13,coin; quoin; coign,/kOIn/; /kwOIn/; /kOIN/,/kOIn/,"[True, False, False]",0.3333333333333333,0.3333333333333333,0
+14,toe; tow,/tu:/; /taU/,/t@U/,"[False, False]",0.0,0.5,0
+15,east; east,/i:st/; /i:st/,/i:st/,"[True, True]",1.0,1.0,1
+16,what; wot,/wQt/; /w@Ut/,/wOt/,"[False, False]",0.0,0.5,0
+17,not; knot; nott,/nQt/; /nQt/; /nQt/,/nQt/,"[True, True, True]",1.0,1.0,1
+18,hut; hutt,/hVt/; /hVt/,/hVt/,"[True, True]",1.0,1.0,1
+19,we; wee; whee; oui; wii; weee,"/wEb/; /wi:/; /wi:/; /""@U.i/; /waI/; /wi:/",/wi:/,"[False, True, True, False, False, True]",0.5,0.5,0
+20,borne; bourn,/bO:n/; /bOr\n/,/bO:n/,"[True, False]",0.5,0.5,0
+21,blond; blonde,/blQnd/; /blQnd/,/blQnd/,"[True, True]",1.0,1.0,1
+22,kneel; neil,/ni:l/; /neIl/,/ni:l/,"[True, False]",0.5,0.5,0
+23,oar; awe; aw; aww,"/""O:/; /eI/; /O:/; /O:/",/O:/,"[False, False, True, True]",0.5,0.5,0
+24,wine; whine,/waIn/; /waIn/,/waIn/,"[True, True]",1.0,1.0,1
+25,cough; qoph,/kaU/; /kQf/,/kQf/,"[False, True]",0.5,0.5,0
+26,thing; thing,/TIN/; /TIN/,/TIN/,"[True, True]",1.0,1.0,1
+27,cell; sell; cel,/sEl/; /sEl/; /sEl/,/sEl/,"[True, True, True]",1.0,1.0,1
+28,tore; taw,/tO:/; /tO:/,/tO:/,"[True, True]",1.0,1.0,1
+29,torn; tawn,/tO:n/; /tO:n/,/tO:n/,"[True, True]",1.0,1.0,1
+30,wake; wake,/weIk/; /weIk/,"/""weIk/","[False, False]",0.0,1.0,0
+31,coal; cole; kohl,/k@Ul/; /k@Ul/; /k@Ul/,/k@Ul/,"[True, True, True]",1.0,1.0,1
+32,beaver; bever; belvoir,"/""bi:v@/; /""bEv@/; /""bElvO:/","/""bi:v@/","[True, False, False]",0.3333333333333333,0.3333333333333333,0
+33,rood; rude,/r\u:d/; /r\u:d/,/r\u:d/,"[True, True]",1.0,1.0,1
+34,low; lo,/laU/; /l@U/,/l@U/,"[False, True]",0.5,0.5,0
+35,rough; ruff,/r\Vf/; /r\Vf/,/r\Vf/,"[True, True]",1.0,1.0,1
+36,m; em; m,"/mI""hVb/; /Em/; /mI""hVb/",/Em/,"[False, True, False]",0.3333333333333333,0.6666666666666666,0
+37,breast; brest,/br\Est/; /br\Est/,/br\Est/,"[True, True]",1.0,1.0,1
+38,universe; universe,"/%ju:nI""v3:s/; /%ju:nI""v3:s/","/""ju:nI%v3:s/","[False, False]",0.0,1.0,0
+39,daily; daley,"/""deIli/; /""deIli/","/""deIli/","[True, True]",1.0,1.0,1
+40,weird; wyrd,/w3:d/; /w3:d/,/wI@d/,"[False, False]",0.0,1.0,0
+41,gnash; nash,/n{S/; /n{S/,/n{S/,"[True, True]",1.0,1.0,1
+42,cash; cache,/k{S/; /keI____S/,/k{S/,"[True, False]",0.5,0.5,0
+43,marathon; marathon,"/""m{r\@T@n/; /""m{r\@T@n/","/""m{r\@T@n/","[True, True]",1.0,1.0,1
+44,cosine; cosign,"/""koUzin/; /""kQzIN/","/""k@U.saIn/","[False, False]",0.0,0.5,0
+45,vulcanology; volcanology,"/%vVlk@""nQl@dZi/; /vQl.k@n""Ql.@.dZI/","/%vQl.k@n""Ql.@.dZi/","[False, False]",0.0,0.5,0
+46,steel; stele; steal,/sti:l/; /sti:l/; /sti:l/,/sti:l/,"[True, True, True]",1.0,1.0,1
+47,australianize; australianise,"/@""str\eIli""{naIz/; /@""str\eIli""{nIz/","/Q""str\eIlj@naIz/","[False, False]",0.0,0.5,0
+48,bes; bees,/bEs/; /biz/,/bi:z/,"[False, False]",0.0,0.5,0
+49,ton; tonne; tun,/tQn/; /tQn/; /tVn/,/tVn/,"[False, False, True]",0.3333333333333333,0.6666666666666666,0
+50,wack; whack,/w{k/; /w{k/,/w{k/,"[True, True]",1.0,1.0,1
+51,corps; caw; core,/kOr\ps/; /kO:/; /kOr\/,/kO:/,"[False, True, False]",0.3333333333333333,0.3333333333333333,0
+52,cygnet; signet,"/""sIg.nIt/; /""sIgnIt/","/""sIg.n@t/","[False, False]",0.0,0.5,0
+53,doe; dough,/d@U/; /daU/,/d@U/,"[True, False]",0.5,0.5,0
+54,root; route,/r\u:t/; /r\u:t/,/r\u:t/,"[True, True]",1.0,1.0,1
+55,clade; clayed,/kleId/; /kleId/,/kleId/,"[True, True]",1.0,1.0,1
+56,ren; wren,/r\En/; /r\En/,/r\En/,"[True, True]",1.0,1.0,1
+57,neve; nieve; neave,/neIv/; /ni:v/; /ni:v/,/ni:v/,"[False, True, True]",0.6666666666666666,0.6666666666666666,0
+58,groom; grume,/gr\u:m/; /gr\u:m/,/gr\u:m/,"[True, True]",1.0,1.0,1
+59,ugly; ugli,"/""ju:.gli/; /""ju:.li/","/""Vgli/","[False, False]",0.0,0.5,0
+60,meme; meem,/meIm/; /mi:m/,/mi:m/,"[False, True]",0.5,0.5,0
+61,hail; hale; hale,/heIl/; /heIl/; /heIl/,/heIl/,"[True, True, True]",1.0,1.0,1
+62,joe; jo; joe,/dZ@U/; /dZo:/; /dZ@U/,/dZ@U/,"[True, False, True]",0.6666666666666666,0.6666666666666666,0
+63,lord; laud; lord,/lO:d/; /lO:d/; /lO:d/,/lO:d/,"[True, True, True]",1.0,1.0,1
+64,whisky; whiskey,"/""wIS.ki/; /wIS""ki:/","/""wIski/","[False, False]",0.0,0.5,0
+65,fry; fry,/fr\aI/; /fr\aI/,/fr\aI/,"[True, True]",1.0,1.0,1
+66,carol; carrel; carrol,"/""k{r\@l/; /k@""r\El/; /""k{r\@l/","/""k{r\@l/","[True, False, True]",0.6666666666666666,0.6666666666666666,0
+67,tenor; tenner,"/""tEnO:/; /""tEn.@/",/tEn@(r\)/,"[False, False]",0.0,0.5,0
+68,auntie; anti,"/""O:n.ti/; /""{nti/","/""{n.ti/","[False, False]",0.0,0.5,0
+69,dissent; descent,"/""dIs@nt/; /""dEs@nt/","/dI""sEnt/","[False, False]",0.0,0.5,0
+70,dine; dyne,/daIn/; /daIn/,/daIn/,"[True, True]",1.0,1.0,1
+71,blend; blende,/blEnd/; /blEnd/,/blEnd/,"[True, True]",1.0,1.0,1
+72,coupe; coop,/ku:p/; /ku:p/,/ku:p/,"[True, True]",1.0,1.0,1
+73,locks; lox,/lQks/; /lQks/,/lAks/,"[False, False]",0.0,1.0,0
+74,jap; jap,/d__Z{p/; /d__Z{p/,/dZ{p/,"[False, False]",0.0,1.0,0
+75,pique; peak; peek; peke,/pi:k/; /pi:k/; /pi:k/; /pi:k/,/pi:k/,"[True, True, True, True]",1.0,1.0,1
+76,aye; eh; a; ey; ij,"/aI/; /Ed/; /eI_^/; /aI/; /""aIdZ@%dZi:/",/eI/,"[False, False, False, False, False]",0.0,0.4,0
+77,palate; palette; pallet; pallette,"/p@""leIt/; /p@""lEt/; /""p{lIt/; /""palIt/","/""p{lIt/","[False, False, True, False]",0.25,0.25,0
+78,rest; wrest,/r\Est/; /r\Est/,/r\Est/,"[True, True]",1.0,1.0,1
+79,banns; bans,/b{nz/; /b{nz/,/b{nz/,"[True, True]",1.0,1.0,1
+80,seaman; semen,"/""si:m@n/; /""si:m@n/","/""si:m@n/","[True, True]",1.0,1.0,1
+81,load; lowed,/l@Ud/; /l@Ud/,/loUd/,"[False, False]",0.0,1.0,0
+82,coulee; cooley,"/ku:""leI/; /""ku:li/","/""kuli/","[False, False]",0.0,0.5,0
+83,haler; hailer,"/""heIl@/; /""heIl@/","/""heIl@/","[True, True]",1.0,1.0,1
+84,jimmy; jimmy,"/""dZImi/; /""dZImi/","/""dZImi/","[True, True]",1.0,1.0,1
+85,blitz; blitz,/blIts/; /blIts/,/blIts/,"[True, True]",1.0,1.0,1
+86,sax; sacks,/s{ks/; /s{ks/,/s{ks/,"[True, True]",1.0,1.0,1
+87,bate; bait,/beIt/; /beIt/,/beIt/,"[True, True]",1.0,1.0,1
+88,duff; duff,/dVf/; /dVf/,/dVf/,"[True, True]",1.0,1.0,1
+89,faint; feint,/fe__Int/; /feInt/,/feI_^nt/,"[False, False]",0.0,0.5,0
+90,fellow; felloe,"/""fEl@U/; /""fEl@U/","/""fEl@U/","[True, True]",1.0,1.0,1
+91,horde; hawed,/hO:d/; /hOId/,/hO:d/,"[True, False]",0.5,0.5,0
+92,leash; laois,/li:S/; /lOIz/,/li:S/,"[True, False]",0.5,0.5,0
+93,slight; slite,/slaIt/; /slaIt/,/slaIt/,"[True, True]",1.0,1.0,1
+94,ebonics; ebonics,"/""Eb.@n.Iks/; /""Eb.@n.Iks/","/i""bAnIks/","[False, False]",0.0,1.0,0
+95,baccalaureate; baccalaureat,"/%b{k@l@""r\aI@t/; /%b{k@l@""r\aIt/","/b{k@""lO:r\I@t/","[False, False]",0.0,0.5,0
+96,cession; session,"/""sEsI@n/; /""sES@n/","/""sES@n/","[False, True]",0.5,0.5,0
+97,interface; interfaces,"/""Int@f@s/; /%Int@""feIsIz/","/""Int@feIs/","[False, False]",0.0,0.5,0
+98,mister; mister,"/""mIst@/; /""mIst@/","/""mIst@r\/","[False, False]",0.0,1.0,0
+99,lily; lily,"/""laIli/; /""laIli/","/""lIli/","[False, False]",0.0,1.0,0
+100,casey; kasey,"/""keIzi/; /""keIzi/","/""keIsi/","[False, False]",0.0,1.0,0
+101,catholic; catholic,/k{T@lIk/; /k{T@lIk/,"/""kaT(@)lIk/","[False, False]",0.0,1.0,0
+102,stellar; stella; steller; steller,"/""stEl@/; /""stEl@/; /""stEl@/; /""stEl@/","/""stEl@/","[True, True, True, True]",1.0,1.0,1
+103,edema; oedema,"/""EdIm@/; /""O:d@m@/","/I.""di:.m@/","[False, False]",0.0,0.5,0
+104,gin; djinn; ginn,/gIn/; /dZIn/; /gIn/,/dZIn/,"[False, True, False]",0.3333333333333333,0.6666666666666666,0
+105,breaking; braking,"/""br\i:kIN/; /""br\eIkIN/","/""br\eIkIN/","[False, True]",0.5,0.5,0
+106,lively; lively,"/""laIvli/; /""laIvli/","/""laIvli/","[True, True]",1.0,1.0,1
+107,apothem; apothegm,"/""{p@TEm/; /""{p@TIm/","/""{p.@.TEm/","[False, False]",0.0,0.5,0
+108,orthodoxy; orthodoxy,"/O:TQd""d@Uki/; /O:TQd""d@Uki/","/""O:T@dQksi/","[False, False]",0.0,1.0,0
+109,scanno; scano,"/""sk{n@U/; /""sk{noU/","/""sk{n@U/","[True, False]",0.5,0.5,0
+110,favourable; favorable,"/""f{v.@.r\@.bl=/; /""f{v@r\@bl=/","/""feIv(@)r\@b@l/","[False, False]",0.0,0.5,0
+111,sully; sully,/sVli/; /sVli/,"/""sVli/","[False, False]",0.0,1.0,0
+112,monica; monika,"/""mQn1k@/; /""mQn1k@/","/""mQ.nI.k@/","[False, False]",0.0,1.0,0
+113,garda; guarder,"/""gAr\d@/; /""gA:d@/","/""gA:d@/","[False, True]",0.5,0.5,0
+114,braille; brail,/br\eI5/; /br\eI5/,/br\eIl/,"[False, False]",0.0,1.0,0
+115,internet; internet,"/""Int@r\nEt/; /""Int@r\nEt/","/""Int@%nEt/","[False, False]",0.0,1.0,0
+116,christie; cristae,"/""kr\Isti/; /""kr\Isti/","/""kr\Isti/","[True, True]",1.0,1.0,1
+117,dearborn; dearborn,"/""dI@r\O:n/; /""dI@r\O:n/","/""dI@bO:n/","[False, False]",0.0,1.0,0
+118,borborygmus; borborigmus,"/bO:b@""r\Igm@s/; /bO:b@""r\Igm@s/","/bO:b@""r\Igm@s/","[True, True]",1.0,1.0,1
+119,homer; homer,"/""hoUm@`/; /""hoUm@`/","/""h@Um@/","[False, False]",0.0,1.0,0
+120,bussed; bused,/bVst/; /bju:zd/,/bVst/,"[True, False]",0.5,0.5,0
+121,bastion; bastian,"/""b{stS@n/; /""b{stI@n/","/""b{sti.@n/","[False, False]",0.0,0.5,0
+122,cliffs; cliffs,/klIfs/; /klIfs/,/klIfs/,"[True, True]",1.0,1.0,1
+123,scallywag; scalliwag,"/""skO:lIga/; /""skOlINg","/""sk{lIw{g/","[False, False]",0.0,0.5,0
+124,coats; coates,"/k@Uts/; /k@U""ti:z/",/k@Uts/,"[True, False]",0.5,0.5,0
+125,coming; cumming,"/""kVmIN/; /""kVmIN/","/""kVmIN/","[True, True]",1.0,1.0,1
+126,steph; stf,/stEf/; /sEf/,/stEf/,"[True, False]",0.5,0.5,0
+127,darrell; darryl,"/""d{r\@5/; /""d{r\Il/","/""d{r\I5/","[False, False]",0.0,0.5,0
+128,exactor; exacter,"/Ig""z{kt@`/; /Ig""z{kt@`/","/Ig""z{kt@`/","[True, True]",1.0,1.0,1
+129,banes; banes,/beInz/; /beInz/,/beInz/,"[True, True]",1.0,1.0,1
+130,frowsy; frowzy,"/""fr\aUzi/; /""fr\aUzi/","/""fr\aUzi/","[True, True]",1.0,1.0,1
+131,alkahest; alcahest,"/""{l.k@.hEst/; /""{l.k@.hEst/","/""al.k@.hEst/","[False, False]",0.0,1.0,0
+132,colorblind; colourblind,"/""kQl@blInd/; /""kVl@blIN/","/""kVl@blaInd/","[False, False]",0.0,0.5,0
+133,gains; gaines,/geInz/; /geInz/,/geInz/,"[True, True]",1.0,1.0,1
+134,fritz; fritz,/fr\Its/; /fr\Its/,/fr\Its/,"[True, True]",1.0,1.0,1
+135,dinky; dinkey,"/""dINki/; /""dINki/","/""dINki/","[True, True]",1.0,1.0,1
+136,gasohol; gasahol,"/""g{s@fUl/; /""g{s@h@l/","/""g{s@%hAl/","[False, False]",0.0,0.5,0
+137,tylenol; tylenol,"/""taIl@nEl/; /""taIl@nEl/","/""taIl@%nAl/","[False, False]",0.0,1.0,0
+138,rolls; roles,/r\@Ulz/; /r\@Ulz/,/r\@Ulz/,"[True, True]",1.0,1.0,1
+139,leghorn; leghorn,"/l@""gO:n/; /l@""gO:n/","/""lEghO:n/","[False, False]",0.0,1.0,0
+140,heeled; healed; heled,/hi:ld/; /hi:ld/; /hi:ld/,/hi:ld/,"[True, True, True]",1.0,1.0,1
+141,clams; clams,/kl{mz/; /kl{mz/,/kl{mz/,"[True, True]",1.0,1.0,1
+142,dematerialization; dematerialisation,"/di:%m{t@r\aI%aI""zeIS@n/; /di:%m{t@r\aI%aI""zeIS@n/","/di:m@%tI@r\I@laI""zeIS@n/","[False, False]",0.0,1.0,0
+143,hayley; hailey,"/""heIli/; /""heIli/","/""heIli/","[True, True]",1.0,1.0,1
+144,chauffer; choffer,"/""tSOf.@(r\)/; /""t__SQf@/","/""t__SO:.f@/","[False, False]",0.0,0.5,0
+145,dicky; dicky,"/""dIki/; /""dIki/","/""dIki/","[True, True]",1.0,1.0,1
+146,boyd; boid,/bOId/; /bOId/,/bOId/,"[True, True]",1.0,1.0,1
+147,monterey; monterrey,"/""mQnt@r\i/; /""mQnt@r\i/","/%mQnt@""r\eI/","[False, False]",0.0,1.0,0
+148,panne; pan,/p{n/; /p{n/,/p{n/,"[True, True]",1.0,1.0,1
+149,bales; bails,/beIlz/; /beIlz/,/beIlz/,"[True, True]",1.0,1.0,1
+150,homogenize; homogenise,"/%hQm@(U)""dZi:naIz/; /%hQ.m@(U)""dZi:.ni:z/","/h@""mQdZ@naIz/","[False, False]",0.0,0.5,0
+151,peals; peels,/pi:lz/; /pi:lz/,/pi:lz/,"[True, True]",1.0,1.0,1
+152,secreting; secretting,"/s@""kr\i:tIN/; /sI""kr\EtIN/","/""si:kr\@tIN/","[False, False]",0.0,0.5,0
+153,bailing; baling,"/""beIlIN/; /""beIlIN/","/""beIlIN/","[True, True]",1.0,1.0,1
+154,yana; yana,"/""jA:n@/; /""jA:n@/","/""jA:.n@/","[False, False]",0.0,1.0,0
+155,congressional; congressional,"/k@n""gr\ES@n/; /k@n""gr\ES@n/","/k@N""gr\ESn=@l/","[False, False]",0.0,1.0,0
+156,planing; plaining,"/""pleInIN/; /""pleInIN/","/""pleInIN/","[True, True]",1.0,1.0,1
+157,diffusive; defusive,"/dI""fju:zIv/; /dI""fju:sIv/","/dI""fju:sIv/","[False, True]",0.5,0.5,0
+158,counteracter; counteractor,"/""kaUnt@r\eIk@/; /""kaUnt@r\A:k@/","/%kaUnt@`""{kt@`/","[False, False]",0.0,0.5,0
+159,cheeps; cheaps,/tSi:ps/; /tSi:ps/,/tSi:ps/,"[True, True]",1.0,1.0,1
+160,gowned; gound,/gaUnd/; /gaUnd/,/gaUnd/,"[True, True]",1.0,1.0,1
+161,decolorize; decolourize,"/di:""kQl@r\aIz/; /di:""kVl@r\aIz/","/di:""kVl@r\aIz/","[False, True]",0.5,0.5,0
+162,alexanders; alexanders,"/{l@k""z{nd@`z/; /{l@k""z{nd@`z/","/%{l1g""z{nd@`z/","[False, False]",0.0,1.0,0
+163,dinosaurian; dinosaurian,"/daIn@U""sU@r\I@n/; /daIn@U""sU@r\I@n/","/%dVIn@(U)""sO:r\I@n/","[False, False]",0.0,1.0,0
+164,mudi; moody,"/""mju:.di/; /""mudi/","/""mudi/","[False, True]",0.5,0.5,0
+165,talwege; thalwege,"/t{l""wEdZ/; /""T{lIdZ/","/""ta:lvEC@/","[False, False]",0.0,0.5,0
+166,vandalic; vandalic,"/v{nd@""lIk/; /v{nd@""lIk/","/v{n""d{lIk/","[False, False]",0.0,1.0,0
+167,entremets; entremet,"/""Entr\@mEts/; /""Entr\@mEt/","/""An.tr\@%meI/","[False, False]",0.0,0.5,0
+168,oxia; oxea,"/""QksI@/; /""QksI@/","/""QksI@/","[True, True]",1.0,1.0,1
+169,peekings; peakings,"/""pi:kINz/; /""pi:kINz/","/""pi:kINz/","[True, True]",1.0,1.0,1
+170,spondonicle; spondonical,"/spOn""dOnIkl=/; /spQn""dOnIkl=/","/spOn""dOn@kl=/","[False, False]",0.0,0.5,0

@@ -1,0 +1,17 @@
+---- phonetics_en.csv
+
+- type: comma-separated file
+- separator: , <comma>
+- compression: bz2
+- encoding: utf-8
+- dimensions: (76.764, 5)
+- unique words: 50.379
+- column names: [IPA, X-SAMPA, _id, lang, word]
+- column desc:
+  * IPA: pronunciation, IPA style
+  * X-SAMPA: pronunciation, X-SAMPA style
+  * _id: Wikipedia id for page / word
+  * lang: abbreviated language name
+  * word: word, written English
+- compiled by: Jasper Ginn <jasperginn@gmail.com>
+- date: 20/10/2018

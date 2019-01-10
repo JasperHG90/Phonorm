@@ -1,0 +1,248 @@
+,in,pred,out,equality,props_comp_to_outcome,props_comp_to_hmphones,props_all_equal
+0,act's; acts,aekts; aekts,aekts,"[True, True]",1.0,1.0,1
+1,airline's; airlines; airlines',ehrlaynz; ehrlaynz; ehrlaynz,ehrlaynz,"[True, True, True]",1.0,1.0,1
+2,aleman; alleman,eylmahn; aelahmahn,eylmahn,"[True, False]",0.5,0.5,0
+3,allegis; allegis',aeleyjhihs; aeleyjhihs,aeleyjhihs,"[True, True]",1.0,1.0,1
+4,anno; ano,aenow; aanow,aenow,"[True, False]",0.5,0.5,0
+5,arcs; arx,aarks; aarks,aarks,"[True, True]",1.0,1.0,1
+6,arman; armen; armin; armon,aarmahn; aarmehn; aarmihn; aarmahn,aarmahn,"[True, False, False, True]",0.5,0.5,0
+7,ayer; eyer; iyer,eyer; ayer; ayer,ayer,"[False, True, True]",0.6666666666666666,0.6666666666666666,0
+8,backer's; backers; bakker's; bakkers,baekerz; baekerz; baekerz; baekerz,baekerz,"[True, True, True, True]",1.0,1.0,1
+9,balentine; ballentine,baelahntiyn; baelahntayn,baalehntiyniy,"[False, False]",0.0,0.5,0
+10,bank's; bankes; banks; banks',baengks; baengks; baengks; baengks,baengks,"[True, True, True, True]",1.0,1.0,1
+11,barasch; barash,baarahsh; baarahsh,baerahsh,"[False, False]",0.0,1.0,0
+12,barone; barrone,berown; baarowniy,berown,"[True, False]",0.5,0.5,0
+13,berger; burger; burgher,berger; berger; berger,berger,"[True, True, True]",1.0,1.0,1
+14,berle; birle; burl,berl; berl; berl,berl,"[True, True, True]",1.0,1.0,1
+15,bernsen; bernson,bernsahn; bernsahn,bernsahn,"[True, True]",1.0,1.0,1
+16,bert; berte; birt; burt; burtt,bert; bert; bert; bert; bert,bert,"[True, True, True, True, True]",1.0,1.0,1
+17,bessey; bessie; bessy,behsiy; behsiy; behsiy,behsiy,"[True, True, True]",1.0,1.0,1
+18,birckhead; birkhead; burkhead,berkhhehd; berkhhehd; berkhhehd,berkhhehd,"[True, True, True]",1.0,1.0,1
+19,biron; byron,bayraan; bayrahn,bayrahn,"[False, True]",0.5,0.5,0
+20,blaiser; blaser; blazer,bleyzer; bleyzer; bleyzer,bleyzer,"[True, True, True]",1.0,1.0,1
+21,blunck; blunk,blahngk; blahngk,blahngk,"[True, True]",1.0,1.0,1
+22,boan; boehne; boen; bohn; bohne; bone; bown; bowne,bown; bown; bown; baan; bown; bown; bawn; bown,bown,"[True, True, True, False, True, True, False, True]",0.75,0.75,0
+23,bohnet; bonnett,bowniht; baaniht,baaniht,"[False, True]",0.5,0.5,0
+24,boris; boris'; borris,baorihs; baorihs; baorihs,baorihs,"[True, True, True]",1.0,1.0,1
+25,brender; brendor,brehnder; brehnder,brehnder,"[True, True]",1.0,1.0,1
+26,buc; buck,bahk; bahk,bahk,"[True, True]",1.0,1.0,1
+27,buchanan's; buchanans,byuwkaenahnz; byuwkaenahnz,byuwkaenahnz,"[True, True]",1.0,1.0,1
+28,buntin; buntyn,bahntihn; bahntihn,bahntihn,"[True, True]",1.0,1.0,1
+29,caller's; callers,kaolerz; kaolerz,kaolerz,"[True, True]",1.0,1.0,1
+30,cammon; kamman,kaemahn; kaemahn,kaemahn,"[True, True]",1.0,1.0,1
+31,campa; kampa,kaempah; kaempah,kaempah,"[True, True]",1.0,1.0,1
+32,campen; kampen,kaempahn; kaempahn,kaempahn,"[True, True]",1.0,1.0,1
+33,candies; candy's,kaendiyz; kaendiyz,kaendiyz,"[True, True]",1.0,1.0,1
+34,carolina; karolina,kehrowliynah; kehrowliynah,kehrahlaynah,"[False, False]",0.0,1.0,0
+35,carron; karren,kehrahn; kehrahn,kaerahn,"[False, False]",0.0,1.0,0
+36,cele; ciel; seal; seale; seel,sehl; siyl; siyl; siyl; siyl,siyl,"[False, True, True, True, True]",0.8,0.8,0
+37,chaffin; chafin,chaefihn; chaefihn,chaefihn,"[True, True]",1.0,1.0,1
+38,charlene; charline; sharleen; sharlene,chaarliyn; chaarlayn; shaarliyn; shaarliyn,shaarliyn,"[False, False, True, True]",0.5,0.5,0
+39,charley's; charlie's,chaarliyz; chaarliyz,chaarliyz,"[True, True]",1.0,1.0,1
+40,chaz; chazz,chaez; chaez,chaez,"[True, True]",1.0,1.0,1
+41,chief's; chiefs; chiefs',chiyfs; chiyfs; chiyfs,chiyfs,"[True, True, True]",1.0,1.0,1
+42,cisler; sisler,sihsahler; sihsahler,sihsahler,"[True, True]",1.0,1.0,1
+43,clear; cleere; kleer,klihr; klihr; klihr,klihr,"[True, True, True]",1.0,1.0,1
+44,clonts; clontz; klontz,klaants; klaants; klaants,klaants,"[True, True, True]",1.0,1.0,1
+45,clouse; klaus,klaws; klaoz,klaws,"[True, False]",0.5,0.5,0
+46,cocos; koko's,kowkowz; kowkowz,kowkowz,"[True, True]",1.0,1.0,1
+47,collums; columns,kaalahmz; kaalahmz,kaalahmz,"[True, True]",1.0,1.0,1
+48,colton; kolton,kowltahn; kowltahn,kowltahn,"[True, True]",1.0,1.0,1
+49,coman; koman,kowmahn; kowmahn,kowmahn,"[True, True]",1.0,1.0,1
+50,comet's; comets,kahmahts; kahmahts,kaamahts,"[False, False]",0.0,1.0,0
+51,commercial's; commercials,kahmershahlz; kahmershahlz,kahmershahlz,"[True, True]",1.0,1.0,1
+52,connally's; connelly's,kaanahliyz; kaanahliyz,kaanahliyz,"[True, True]",1.0,1.0,1
+53,coppee; copy; kopy,kaapiy; kaapiy; kowpiy,kaapiy,"[True, True, False]",0.6666666666666666,0.6666666666666666,0
+54,corespondent; correspondent,kaorspaandahnt; kaorahspaandahnt,kaorahspaandahnt,"[False, True]",0.5,0.5,0
+55,crabill; krabill,kraabihl; kraabihl,kraebahl,"[False, False]",0.0,1.0,0
+56,craven's; cravens,kreyvahnz; kreyvahnz,kreyvahnz,"[True, True]",1.0,1.0,1
+57,crim; crimm; krim,krihm; krihm; krihm,krihm,"[True, True, True]",1.0,1.0,1
+58,critzer; kritzer,krihtzer; krihtzer,krihtzer,"[True, True]",1.0,1.0,1
+59,crumley; crumly,krahmliy; krahmliy,krahmliy,"[True, True]",1.0,1.0,1
+60,crummey; crummy,krahmiy; krahmiy,krahmiy,"[True, True]",1.0,1.0,1
+61,daines; dains; dane's; danes; deigns,deynz; deynz; deynz; deynz; deynz,deynz,"[True, True, True, True, True]",1.0,1.0,1
+62,daya's; dias; diez,deyahz; diyaas; diyz,dayahz,"[False, False, False]",0.0,0.3333333333333333,0
+63,decker; dekker,dehker; dehker,dehker,"[True, True]",1.0,1.0,1
+64,dhaharan; dhahran,dahhhaerahn; daahhahn,dahraan,"[False, False]",0.0,0.5,0
+65,dolan; dolen; dollan,dowlahn; dowlahn; daalahn,dowlahn,"[True, True, False]",0.6666666666666666,0.6666666666666666,0
+66,donaghue; donahoo; donohoo,daanahhhyuw; downahhhuw; daanahhhuw,daanahhhuw,"[False, False, True]",0.3333333333333333,0.3333333333333333,0
+67,donnelley's; donnelly's,daanahliyz; daanahliyz,daanahliyz,"[True, True]",1.0,1.0,1
+68,dooling; dueling,duwlihng; duwlihng,duwlihng,"[True, True]",1.0,1.0,1
+69,drug's; drugs; drugs',drahgz; drahgz; drahgz,drahgz,"[True, True, True]",1.0,1.0,1
+70,duffer; dufur,dahfer; dahfer,dahfer,"[True, True]",1.0,1.0,1
+71,dumber; dummer,dahmber; dahmer,dahmer,"[False, True]",0.5,0.5,0
+72,edoardo; eduardo,ehdaordow; ehdwaardow,ehdwaardow,"[False, True]",0.5,0.5,0
+73,ehrich; eric; erich; erick; erik,ehrihk; ehrihk; ehrihch; ehrihk; ehrihk,ehrihk,"[True, True, False, True, True]",0.8,0.8,0
+74,eighties; eighty's,eytiyz; eytiyz,eytiyz,"[True, True]",1.0,1.0,1
+75,electric's; electrics,ihlehktrihks; ihlehktrihks,ihlehktrihks,"[True, True]",1.0,1.0,1
+76,encyclopaedia; encyclopedia,ihnsayklahpiydiyah; ihnsayklahpiydiyah,ihnsayklahpiydiyah,"[True, True]",1.0,1.0,1
+77,enloe; enlow; inlow,ehnlow; ehnlow; ihnlow,ihnlow,"[False, False, True]",0.3333333333333333,0.6666666666666666,0
+78,eric's; erik's,ehrihks; ehrihks,ehrihks,"[True, True]",1.0,1.0,1
+79,examiners; examiners',ihgzaemahnerz; ihgzaemahnerz,ihgzaemihnerz,"[False, False]",0.0,1.0,0
+80,fahrner; farner,faarner; faarner,faarner,"[True, True]",1.0,1.0,1
+81,faughn; fawn,faon; faon,faon,"[True, True]",1.0,1.0,1
+82,finlay; finley,fihnley; fihnliy,fihnliy,"[False, True]",0.5,0.5,0
+83,fischer; fisher; fissure,fihsher; fihsher; fihsher,fihsher,"[True, True, True]",1.0,1.0,1
+84,forshee; forshey,faorshiy; faorshiy,faorshiy,"[True, True]",1.0,1.0,1
+85,frog's; frogs,fraagz; fraagz,fraagz,"[True, True]",1.0,1.0,1
+86,gabrielsen; gabrielson,geybriyihlsahn; geybriyihlsahn,gaebriylsahn,"[False, False]",0.0,1.0,0
+87,garmond; garmund,gaarmaend; gaarmahnd,gaarmahnd,"[False, True]",0.5,0.5,0
+88,garp's; garps,gaarps; gaarps,gaarps,"[True, True]",1.0,1.0,1
+89,garret; gehret,gaeriht; gehriht,gehriht,"[False, True]",0.5,0.5,0
+90,garrity; gerety,gaerihtiy; gihrahtiy,gehrihtiy,"[False, False]",0.0,0.5,0
+91,geoff; jeff; jeffe,jhiyowf; jhehf; jhehf,jhehf,"[False, True, True]",0.6666666666666666,0.6666666666666666,0
+92,german; jerman,germahn; jhermahn,jhermahn,"[False, True]",0.5,0.5,0
+93,gess; jess,jhehs; jhehs,jhehs,"[True, True]",1.0,1.0,1
+94,glori; glory,glaoriy; glaoriy,glaoriy,"[True, True]",1.0,1.0,1
+95,gnat; nat,naet; naet,naet,"[True, True]",1.0,1.0,1
+96,goin; goyne,goyn; goyn,goyn,"[True, True]",1.0,1.0,1
+97,got; gott,gaat; gaat,gaat,"[True, True]",1.0,1.0,1
+98,haagen; hogen; hoggan,hheyjhahn; hhowgahn; hhaagwaen,hhaagahn,"[False, False, False]",0.0,0.3333333333333333,0
+99,hail; haile; hale; heyl,hheyl; hheyl; hheyl; hhayl,hheyl,"[True, True, True, False]",0.75,0.75,0
+100,halgren; hallgren,hhaelgrehn; hhaolgrehn,hhaelgrehn,"[True, False]",0.5,0.5,0
+101,handel's; handels; handles,hhaendahlz; hhaendahlz; hhaendahlz,hhaendahlz,"[True, True, True]",1.0,1.0,1
+102,haring; herring,hhehrihng; hhehrihng,hhehrihng,"[True, True]",1.0,1.0,1
+103,harm's; harmes; harms,hhaarmz; hhaarmz; hhaarmz,hhaarmz,"[True, True, True]",1.0,1.0,1
+104,hazelwood; hazlewood,hheyzahlwuhd; hheyzahlwuhd,hheyzahlwuhd,"[True, True]",1.0,1.0,1
+105,heil; hile; hyle,hhayl; hhayl; hhayl,hhayl,"[True, True, True]",1.0,1.0,1
+106,heinecke; heinicke; hynek,hhaynihkiy; hhaynihk; hhihnehk,hhaynihk,"[False, True, False]",0.3333333333333333,0.3333333333333333,0
+107,hellmer; helmer,hhehlmer; hhehlmer,hhehlmer,"[True, True]",1.0,1.0,1
+108,henrich; henrick; henrik,hhehnrihk; hhehnrihk; hhehnrihk,hhehnrihk,"[True, True, True]",1.0,1.0,1
+109,hensel; hensil,hhehnsahl; hhehnsahl,hhehnsahl,"[True, True]",1.0,1.0,1
+110,herling; hurling,hherlihng; hherlihng,hherlihng,"[True, True]",1.0,1.0,1
+111,hinck; hink,hhihngk; hhihngk,hhihngk,"[True, True]",1.0,1.0,1
+112,holst; holste,hhowlst; hhowlst,hhowlst,"[True, True]",1.0,1.0,1
+113,hurley; hurly,hherliy; hherliy,hherliy,"[True, True]",1.0,1.0,1
+114,incorporation's; incorporations,ihnkaorpereyshahnz; ihnkaorpereyshahnz,ihnkaorpereyshahnz,"[True, True]",1.0,1.0,1
+115,isackson; isaksen; isakson,ihsaaksahn; ihsaaksahn; ihsaaksahn,ihsahksahn,"[False, False, False]",0.0,1.0,0
+116,ishee; ishi,ihshiy; ihshiy,ihshiy,"[True, True]",1.0,1.0,1
+117,johannsen; johansen; johanson,jhowhhaensahn; jhowhhaensahn; jhowhhaensahn,jhowhhaensahn,"[True, True, True]",1.0,1.0,1
+118,kearn; kern; kirn,kihrn; kern; kern,kern,"[False, True, True]",0.6666666666666666,0.6666666666666666,0
+119,kearney; kearny; kerney,kihrniy; kerniy; kerniy,kerniy,"[False, True, True]",0.6666666666666666,0.6666666666666666,0
+120,keathley; keithley; keithly,kiythliy; kaythliy; kiythliy,kiythliy,"[True, False, True]",0.6666666666666666,0.6666666666666666,0
+121,kehl; kell,kehl; kehl,kehl,"[True, True]",1.0,1.0,1
+122,kerkman; kirchman; kirkman,kerkmahn; kerkmahn; kerkmahn,kerkmahn,"[True, True, True]",1.0,1.0,1
+123,kirch; kirk; kurk,kerk; kerk; kerk,kerk,"[True, True, True]",1.0,1.0,1
+124,kirschenbaum; kirshenbaum,kershahnbawm; kershahnbawm,kershahnbawm,"[True, True]",1.0,1.0,1
+125,lander; landor,laender; laender,laender,"[True, True]",1.0,1.0,1
+126,lauren; loren,laorihn; laorahn,laorahn,"[False, True]",0.5,0.5,0
+127,leak; leake; leek; leick,liyk; liyk; liyk; liyk,liyk,"[True, True, True, True]",1.0,1.0,1
+128,leavitt; levett; levit; levitt; levitte,liyviht; lehviht; lehviht; lehviht; lihviht,lehviht,"[False, True, True, True, False]",0.6,0.6,0
+129,leeper; leiper,liyper; liyper,liyper,"[True, True]",1.0,1.0,1
+130,leeuwen; lewan; luane,luwyuwn; luwaan; lweyn,luwahn,"[False, False, False]",0.0,0.3333333333333333,0
+131,liebel; liebl,liybahl; liybahl,liybahl,"[True, True]",1.0,1.0,1
+132,loads; lodes,lowdz; lowdz,lowdz,"[True, True]",1.0,1.0,1
+133,lohse; los,lows; laos,lows,"[True, False]",0.5,0.5,0
+134,loot; lute,luwt; luwt,luwt,"[True, True]",1.0,1.0,1
+135,macartney; mccartney,mahkaartniy; mahkaartniy,mahkaartniy,"[True, True]",1.0,1.0,1
+136,macdonald's; mcdonald's; mcdonalds,mahkdaanahldz; mahkdaanahldz; mahkdaanahldz,mahkdaanahldz,"[True, True, True]",1.0,1.0,1
+137,machinists; machinists',maekahnahsts; maekahnahsts,mahshiynihsts,"[False, False]",0.0,1.0,0
+138,markiewicz; markovich; markowicz,maarkahvihch; maarkahvihch; maarkahvihch,maarkahvihch,"[True, True, True]",1.0,1.0,1
+139,masci; massey; massi; massie,maasiy; maesiy; maesiy; maesiy,maesiy,"[False, True, True, True]",0.75,0.75,0
+140,mathes; mathis; matthis,meydhz; maethihs; maethihs,maethihs,"[False, True, True]",0.6666666666666666,0.6666666666666666,0
+141,mccracken; mccrackin,mahkraekahn; mahkraekihn,mahkraekahn,"[True, False]",0.5,0.5,0
+142,mcelrath; mcelreath; mcilrath,maekahlraeth; maekahliyehth; maekahlthaath,maekahlraeth,"[True, False, False]",0.3333333333333333,0.3333333333333333,0
+143,mckibben; mckibbin; mckibbon,mahkihbahn; mahkihbahn; mahkihbahn,mahkihbahn,"[True, True, True]",1.0,1.0,1
+144,mckinsey; mckinzie,mahkihnsiy; mahkihnziy,mahkihnziy,"[False, True]",0.5,0.5,0
+145,mcmahan; mcmahen,mahkmeyahn; mahkmeyahn,mahkmeyhhahn,"[False, False]",0.0,1.0,0
+146,mcmoran; mcmorran,mahkmaorahn; mahkmaorahn,mahkmaorahn,"[True, True]",1.0,1.0,1
+147,mean; mein; meine; mien,miyn; meyn; meyn; miyn,miyn,"[True, False, False, True]",0.5,0.5,0
+148,mech; meck,mehk; mehk,mehk,"[True, True]",1.0,1.0,1
+149,menk; menke,mehngk; mehngk,mehngk,"[True, True]",1.0,1.0,1
+150,mertz; mirtz,merts; merts,merts,"[True, True]",1.0,1.0,1
+151,millimeters; millimetres,mihlihmiyterz; mihlihmehterz,mihlahmiyterz,"[False, False]",0.0,0.5,0
+152,mobil's; mobile's; mobiles,mowbahlz; mowbahlz; mowbahlz,mowbahlz,"[True, True, True]",1.0,1.0,1
+153,mortensen; mortenson,maortehnsahn; maortehnsahn,maortihnsahn,"[False, False]",0.0,1.0,0
+154,muskie; musky,mahskiy; mahskiy,mahskiy,"[True, True]",1.0,1.0,1
+155,nail; naill; nale,neyl; neyl; neyl,neyl,"[True, True, True]",1.0,1.0,1
+156,naito; nato,neytow; naatow,neytow,"[True, False]",0.5,0.5,0
+157,natale; natali,naataaliy; naataaliy,naataaliy,"[True, True]",1.0,1.0,1
+158,natchez; natchez',naechehz; naechehz,naechehz,"[True, True]",1.0,1.0,1
+159,nichole; nicole; nicolle,nihhhowl; nihkowliy; nihkahl,nihkowl,"[False, False, False]",0.0,0.3333333333333333,0
+160,nicor; nycor,nihkaor; naykaor,naykaor,"[False, True]",0.5,0.5,0
+161,nolie; nolley,nowliy; naaliy,naaliy,"[False, True]",0.5,0.5,0
+162,nolt; nolte,nowlt; nowlt,nowlt,"[True, True]",1.0,1.0,1
+163,norell; norrell,naorahl; naoreyl,naorahl,"[True, False]",0.5,0.5,0
+164,nusbaum; nussbaum,nahsbawm; nahsbawm,nahsbawm,"[True, True]",1.0,1.0,1
+165,o'bara; obara,owbaarah; owbaarah,owbaarah,"[True, True]",1.0,1.0,1
+166,overseas; oversees,owversiyz; owversiyz,owversiyz,"[True, True]",1.0,1.0,1
+167,panko; pankow,paengkow; paengkaw,paengkow,"[True, False]",0.5,0.5,0
+168,patties; patty's,paetiyz; paetiyz,paetiyz,"[True, True]",1.0,1.0,1
+169,peaked; peeked; piqued,piykt; piykt; piykd,piykt,"[True, True, False]",0.6666666666666666,0.6666666666666666,0
+170,peaslee; peasley,piyzliy; piyzliy,piyzliy,"[True, True]",1.0,1.0,1
+171,pence; pense,pehns; pehns,pehns,"[True, True]",1.0,1.0,1
+172,perret; perrett; perritt,perrey; perreht; pehriht,perriht,"[False, False, False]",0.0,0.3333333333333333,0
+173,pig's; pigs,pihgz; pihgz,pihgz,"[True, True]",1.0,1.0,1
+174,pizza's; pizzas,pihzahz; pihzahz,piytsahz,"[False, False]",0.0,1.0,0
+175,plaino; plano,pleynow; plaanow,pleynow,"[True, False]",0.5,0.5,0
+176,plum's; plums,plahmz; plahmz,plahmz,"[True, True]",1.0,1.0,1
+177,prime's; primes,praymz; praymz,praymz,"[True, True]",1.0,1.0,1
+178,problem's; problems,praablehmz; praablehmz,praablahmz,"[False, False]",0.0,1.0,0
+179,prochaska; prohaska,prahshaaskah; prowhhaeskah,prahhhaaskah,"[False, False]",0.0,0.5,0
+180,quartet's; quartets,kwaortehts; kwaortehts,kwaortehts,"[True, True]",1.0,1.0,1
+181,ragan; reagan,reygahn; reygahn,reygahn,"[True, True]",1.0,1.0,1
+182,rapist's; rapists,raepihsts; raepihsts,reypihsts,"[False, False]",0.0,1.0,0
+183,raskin; raskyn,raeskihn; raeskihn,raeskihn,"[True, True]",1.0,1.0,1
+184,rehm; rem; remme; rhem,rehm; rehm; rehm; rehm,rehm,"[True, True, True, True]",1.0,1.0,1
+185,reilly; riley; ryley; wryly,rayliy; rayliy; rayliy; rayliy,rayliy,"[True, True, True, True]",1.0,1.0,1
+186,reiter; reitter; righter; riter; writer,riyter; riyter; rayter; rayter; rayter,rayter,"[False, False, True, True, True]",0.6,0.6,0
+187,renaud; reneau; ryno,rihnaod; rihnow; riynow,rihnow,"[False, True, False]",0.3333333333333333,0.3333333333333333,0
+188,renfro; renfroe,rehnfrow; rehnfruw,rehnfrow,"[True, False]",0.5,0.5,0
+189,rhody; roadie; roady; rodi; rody,rowdiy; rowdiy; rowdiy; rowdiy; rowdiy,rowdiy,"[True, True, True, True, True]",1.0,1.0,1
+190,ridgeway; ridgway,rihjhwey; rihjhwey,rihjhwey,"[True, True]",1.0,1.0,1
+191,ringel; ringle,rihnggahl; rihnggahl,rihnggahl,"[True, True]",1.0,1.0,1
+192,rintel's; rintels; rintels',rihntehlz; rihntehlz; rihntehlz,rihntehlz,"[True, True, True]",1.0,1.0,1
+193,ritner; rittner,rihtner; rihtner,rihtner,"[True, True]",1.0,1.0,1
+194,roehl; roell; roelle; rohl; rol; role; roll; rolle,rowl; rowl; rowehl; rowl; rowl; rowl; rowl; rowl,rowl,"[True, True, False, True, True, True, True, True]",0.875,0.875,0
+195,runner's; runners,rahnerz; rahnerz,rahnerz,"[True, True]",1.0,1.0,1
+196,rus; russ; russe,rahs; rahs; rahs,rahs,"[True, True, True]",1.0,1.0,1
+197,sails; sale's; sales; sales'; sayles,seylz; seylz; seylz; seylz; seylz,seylz,"[True, True, True, True, True]",1.0,1.0,1
+198,salable; saleable,seylahbahl; sahliyahbahl,seylahbahl,"[True, False]",0.5,0.5,0
+199,sao; sow,saw; sow,saw,"[True, False]",0.5,0.5,0
+200,saturn's; saturns,saeternz; saeternz,saeternz,"[True, True]",1.0,1.0,1
+201,saucer; sausser,saoser; saoser,saoser,"[True, True]",1.0,1.0,1
+202,scaggs; scags; skaggs,skaegz; skaegz; skaegz,skaegz,"[True, True, True]",1.0,1.0,1
+203,seeks; seix; sikhs,siyks; siyks; sihks,siyks,"[True, True, False]",0.6666666666666666,0.6666666666666666,0
+204,selden; seldon,sehldahn; sehldahn,sehldahn,"[True, True]",1.0,1.0,1
+205,seoul; sohl; sole; soul; sowle,sowl; sowl; sowl; sawl; sawl,sowl,"[True, True, True, False, False]",0.6,0.6,0
+206,shelley; shelly,shehliy; shehliy,shehliy,"[True, True]",1.0,1.0,1
+207,sic; sick,sihk; sihk,sihk,"[True, True]",1.0,1.0,1
+208,smelley; smelly,smehliy; smehliy,smehliy,"[True, True]",1.0,1.0,1
+209,sophie; sophy,saafiy; saafiy,sowfiy,"[False, False]",0.0,1.0,0
+210,species; species',spiysiyz; spiysiyz,spiyshiyz,"[False, False]",0.0,1.0,0
+211,specter; spector; spectre; spektr,spehkter; spehkter; spehkter; spehkter,spehkter,"[True, True, True, True]",1.0,1.0,1
+212,spies; spy's,spayz; spayz,spayz,"[True, True]",1.0,1.0,1
+213,spots; spotts,spaats; spaats,spaats,"[True, True]",1.0,1.0,1
+214,staab; stobbe,staab; staab,staab,"[True, True]",1.0,1.0,1
+215,stac; stack,staek; staek,staek,"[True, True]",1.0,1.0,1
+216,steffens; stephans,stehfahnz; stehfahnz,stehfahnz,"[True, True]",1.0,1.0,1
+217,stegar; steger,stiyger; stiyger,stiyger,"[True, True]",1.0,1.0,1
+218,stone's; stones; stones',stownz; stownz; stownz,stownz,"[True, True, True]",1.0,1.0,1
+219,straight; strait; strate; streight,streyt; streyt; streyt; streyt,streyt,"[True, True, True, True]",1.0,1.0,1
+220,suc; suck; suk,sahk; sahk; sahk,sahk,"[True, True, True]",1.0,1.0,1
+221,suites; sweets,suwts; swiyts,swiyts,"[False, True]",0.5,0.5,0
+222,sulek; sulik,suwlihk; suwlihk,suwlihk,"[True, True]",1.0,1.0,1
+223,sweats; swetz,swiyts; swehts,swehts,"[False, True]",0.5,0.5,0
+224,tallant; tallent,taelahnt; taelahnt,taalahnt,"[False, False]",0.0,1.0,0
+225,tamburo; tamburro,taambuhrow; taambuhrow,taambuhrow,"[True, True]",1.0,1.0,1
+226,tartikoff's; tartikoffs,taartihkaofs; taartihkaofs,taartihkaofs,"[True, True]",1.0,1.0,1
+227,taverna's; tavernas,taavehrnahz; tahvernahz,taavehrnahz,"[True, False]",0.5,0.5,0
+228,telecom's; telecoms; telekom's,tehlahkaamz; tehlahkaamz; tehlahkaamz,tehlahkaamz,"[True, True, True]",1.0,1.0,1
+229,tim; timm; timme,tihm; tihm; tihm,tihm,"[True, True, True]",1.0,1.0,1
+230,toy's; toys; toys',toyz; toyz; toyz,toyz,"[True, True, True]",1.0,1.0,1
+231,trombley; trombly,traambliy; traambliy,traambliy,"[True, True]",1.0,1.0,1
+232,tunney; tunny,tahniy; tahniy,tahniy,"[True, True]",1.0,1.0,1
+233,vaca; vacca,vaakah; vaekah,vaekah,"[False, True]",0.5,0.5,0
+234,vancampen; vankampen,vaenkaempihn; vaenkaempihn,vaenkaempahn,"[False, False]",0.0,1.0,0
+235,vasquez; vazquez,vaeskwehz; vaaskwehz,vaeskehz,"[False, False]",0.0,0.5,0
+236,veers; viers,vihrz; vayerz,vihrz,"[True, False]",0.5,0.5,0
+237,wank; wanke,waengk; waengk,waangk,"[False, False]",0.0,1.0,0
+238,wayland; weyland,weylahnd; weylahnd,weylahnd,"[True, True]",1.0,1.0,1
+239,weigl; weigle; wiegel,wiygahl; wiygahl; wiygahl,wiygahl,"[True, True, True]",1.0,1.0,1
+240,weinman; weinmann; wineman,waynmahn; waynmahn; waynmahn,waynmahn,"[True, True, True]",1.0,1.0,1
+241,whirled; world,werld; werld,werld,"[True, True]",1.0,1.0,1
+242,winckler; winkler,wihngkler; wihngkler,wihngkler,"[True, True]",1.0,1.0,1
+243,windt; wint,wihnt; wihnt,wihnt,"[True, True]",1.0,1.0,1
+244,yandell; yandle,yaendehl; yaendahl,yaendahl,"[False, True]",0.5,0.5,0
+245,yousef; youssef; yusef,yuwsehf; yuwsehf; yuwsehf,yuwsehf,"[True, True, True]",1.0,1.0,1
+246,zellman; zelman,zehlmahn; zehlmahn,zehlmahn,"[True, True]",1.0,1.0,1

@@ -1,0 +1,7 @@
+.RData
+.Rhistory
+.Rproj.user
+__pycache__
+.ipynb_checkpoints
+*.xml
+*.xml.bz2

@@ -1,0 +1,801 @@
+,in,out,pred,bs1,bs2,bs3,bs4
+0,smitten,"	 s m ih t ah n 
+",smihtahn,1.0,1.0,1.0,1.0
+1,zloty,"	 z l ao t iy 
+",zlaotiy,1.0,1.0,1.0,1.0
+2,thighs,"	 th ay z 
+",thayz,1.0,1.0,1.0,1.0
+3,balks,"	 b ao k s 
+",baoks,1.0,1.0,1.0,1.0
+4,flounce,"	 f l aw n s 
+",flawns,1.0,1.0,1.0,1.0
+5,goyette,"	 g oy eh t 
+",goyeht,1.0,1.0,1.0,1.0
+6,nighthawk,"	 n ay t hh ao k 
+",naythhaok,1.0,1.0,1.0,1.0
+7,flanks,"	 f l ae ng k s 
+",flaengks,1.0,1.0,1.0,1.0
+8,poremba,"	 p ao r eh m b ah 
+",paorehmbah,1.0,1.0,1.0,1.0
+9,parvin,"	 p aa r v ih n 
+",paarvihn,1.0,1.0,1.0,1.0
+10,wyand,"	 w ay ah n d 
+",wayaend,0.8571428656578064,0.7559289336204529,0.6144368052482605,0.48892301321029663
+11,gehry,"	 g eh r iy 
+",jhehriy,0.7142857313156128,0.6900655627250671,0.6613898873329163,0.6147881746292114
+12,pennbancorp,"	 p eh n b ae n k ao r p 
+",pehnbahnkaorp,0.9230769276618958,0.8770580291748047,0.8255793452262878,0.7611606121063232
+13,delusions,"	 d ih l uw zh ah n z 
+",dihluwzhahnz,1.0,1.0,1.0,1.0
+14,supported,"	 s ah p ao r t ah d 
+",sahpaortihd,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7419446706771851
+15,fisher's,"	 f ih sh er z 
+",fihsherz,1.0,1.0,1.0,1.0
+16,mcgegan,"	 m ah g eh g ah n 
+",mahgehgahn,1.0,1.0,1.0,1.0
+17,up,"	 ah p 
+",ahp,1.0,1.0,1.0,0.0
+18,kinsell,"	 k ih n s ah l 
+",kihnsahl,1.0,1.0,1.0,1.0
+19,showered,"	 sh aw er d 
+",shawerd,1.0,1.0,1.0,1.0
+20,albank,"	 aa l b ae ng k 
+",aalbaengk,1.0,1.0,1.0,1.0
+21,ahead,"	 ah hh eh d 
+",ahhhehd,1.0,1.0,1.0,1.0
+22,steinhorst,"	 s t ay n hh ao r s t 
+",staynhhaorst,1.0,1.0,1.0,1.0
+23,coarser,"	 k ao r s er 
+",kaorser,1.0,1.0,1.0,1.0
+24,masoner,"	 m ey s ah n er 
+",maezahner,0.7777777910232544,0.6236095428466797,0.5536178350448608,0.4854917824268341
+25,vendome,"	 v eh n d ow m 
+",vehndowm,1.0,1.0,1.0,1.0
+26,murdoch,"	 m er d aa k 
+",merdahk,0.8571428656578064,0.7559289336204529,0.7024046182632446,0.643458902835846
+27,scum,"	 s k ah m 
+",skahm,1.0,1.0,1.0,1.0
+28,vamp,"	 v ae m p 
+",vaemp,1.0,1.0,1.0,1.0
+29,hinojos,"	 hh iy n ow y ow z 
+",hhihnowjhowz,0.75,0.6396021246910095,0.5004383325576782,0.0
+30,brochu,"	 b r ow k uw 
+",browkuw,1.0,1.0,1.0,1.0
+31,disengaged,"	 d ih s ih n g ey jh d 
+",dihsihngeyjhd,1.0,1.0,1.0,1.0
+32,uri's,"	 y er iy z 
+",yeriyz,1.0,1.0,1.0,1.0
+33,swickard,"	 s w ih k er d 
+",swihkerd,1.0,1.0,1.0,1.0
+34,aquino's,"	 ah k iy n ow z 
+",ahkwiynowz,0.8999999761581421,0.8366600275039673,0.7612420320510864,0.658037006855011
+35,jenn,"	 jh eh n 
+",jhehn,1.0,1.0,1.0,1.0
+36,amidst,"	 ah m ih d s t 
+",ahmihdst,1.0,1.0,1.0,1.0
+37,korry's,"	 k ao r iy z 
+",kaoriyz,1.0,1.0,1.0,1.0
+38,schooltime,"	 s k uw l t ay m 
+",skuwltaym,1.0,1.0,1.0,1.0
+39,gammons,"	 g ae m ah n z 
+",gaemahnz,1.0,1.0,1.0,1.0
+40,normandy,"	 n ao r m ah n d iy 
+",naormahndiy,1.0,1.0,1.0,1.0
+41,polo,"	 p ow l ow 
+",powlow,1.0,1.0,1.0,1.0
+42,smitley,"	 s m ih t l iy 
+",smihtliy,1.0,1.0,1.0,1.0
+43,lobos,"	 l ow b ow s 
+",lowbows,1.0,1.0,1.0,1.0
+44,galang,"	 g ae l ah ng 
+",gahlaeng,1.0,0.8451542258262634,0.0,0.0
+45,traeger,"	 t r eh g er 
+",trehger,1.0,1.0,1.0,1.0
+46,motherless,"	 m ah dh er l ih s 
+",mahdherlahs,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7419446706771851
+47,precluding,"	 p r ih k l uw d ih ng 
+",prihkluwdihng,1.0,1.0,1.0,1.0
+48,coiffed,"	 k oy f t 
+",koyft,1.0,1.0,1.0,1.0
+49,flap,"	 f l ae p 
+",flaep,1.0,1.0,1.0,1.0
+50,ippolito,"	 ih p ow l iy t ow 
+",iypowliytow,0.9090909361839294,0.8528028726577759,0.8285952210426331,0.8070557117462158
+51,delarosa,"	 d eh l aa r ow s ah 
+",deylaarowsah,0.9166666865348816,0.8660253882408142,0.8084489107131958,0.7691605687141418
+52,burkey,"	 b er k iy 
+",berkiy,1.0,1.0,1.0,1.0
+53,compliant,"	 k ah m p l ay ah n t 
+",kahmplayahnt,1.0,1.0,1.0,1.0
+54,unauthentic,"	 ah n ao th eh n t ih k 
+",ahnaothehtihk,0.9259610772132874,0.8865402340888977,0.842098593711853,0.7881929874420166
+55,differ,"	 d ih f er 
+",dihfer,1.0,1.0,1.0,1.0
+56,gaseous,"	 g ae s iy ah s 
+",gaesiyahs,1.0,1.0,1.0,1.0
+57,krusinski,"	 k r ah s ih n s k iy 
+",krahsihnskiy,1.0,1.0,1.0,1.0
+58,treaters,"	 t r iy t er z 
+",triyterz,1.0,1.0,1.0,1.0
+59,richland,"	 r ih ch l ah n d 
+",rihklahnd,0.7954127192497253,0.7306332588195801,0.650777280330658,0.5341736078262329
+60,curses,"	 k er s ih z 
+",kersihz,1.0,1.0,1.0,1.0
+61,rifleman,"	 r ay f ah l m ah n 
+",rayfahlmahn,1.0,1.0,1.0,1.0
+62,wollman,"	 w aa l m ah n 
+",waalmahn,1.0,1.0,1.0,1.0
+63,kratz,"	 k r ae t s 
+",kraets,1.0,1.0,1.0,1.0
+64,olajuwon,"	 ah l ay jh uw aa n 
+",owlahjhuwahn,0.75,0.6396021246910095,0.5004383325576782,0.4063798189163208
+65,nordbanken,"	 n ao r d b ae ng k ah n 
+",naordbaengkahn,1.0,1.0,1.0,1.0
+66,concomitantly,"	 k aa n k aa m ah t ah n t l iy 
+",kahnkaamahtahntliy,0.9444444179534912,0.9128709435462952,0.8792490363121033,0.8578928112983704
+67,rat's,"	 r ae t s 
+",raets,1.0,1.0,1.0,1.0
+68,tonnesen,"	 t ah n s ah n 
+",taaniyzahn,0.6000000238418579,0.4472135901451111,0.29601940512657166,0.0
+69,itami,"	 ih t aa m iy 
+",ihtaamiy,1.0,1.0,1.0,1.0
+70,creagh,"	 k r iy g 
+",kriy,0.7788007855415344,0.7788007855415344,0.7788007855415344,0.7788007855415344
+71,lunberg,"	 l ah n b er g 
+",lahnberg,1.0,1.0,1.0,1.0
+72,winans's,"	 w ih n ah n z ih z 
+",wihnahnzihz,1.0,1.0,1.0,1.0
+73,sorry,"	 s aa r iy 
+",saoriy,0.8333333134651184,0.7071067690849304,0.5034777522087097,0.0
+74,delillo,"	 d ah l ih l ow 
+",dehliylow,0.7777777910232544,0.6236095428466797,0.48428383469581604,0.0
+75,sram,"	 sh r ae m 
+",shraem,1.0,1.0,1.0,1.0
+76,gazella,"	 g ah z eh l ah 
+",gahzehlah,1.0,1.0,1.0,1.0
+77,stockbrokerages,"	 s t aa k b r ow k er ih jh ih z 
+",staakbrowkerihjhihz,1.0,1.0,1.0,1.0
+78,joines,"	 jh oy n z 
+",jhoynz,1.0,1.0,1.0,1.0
+79,ungodly,"	 ah n g ao d l iy 
+",ahnggahdliy,0.8181818127632141,0.7567874789237976,0.6366526484489441,0.5022574067115784
+80,deterring,"	 d ih t er ih ng 
+",dihterihng,1.0,1.0,1.0,1.0
+81,nairn,"	 n eh r n 
+",nehrn,1.0,1.0,1.0,1.0
+82,multifaceted,"	 m ah l t iy f ae s ah t ih d 
+",mahltiyfaesahtihd,1.0,1.0,1.0,1.0
+83,concannon,"	 k ah n k ae n ah n 
+",kaankaenahn,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7419446706771851
+84,niobium,"	 n ay ow b iy ah m 
+",nayowbiyahm,1.0,1.0,1.0,1.0
+85,shirk,"	 sh er k 
+",sherk,1.0,1.0,1.0,1.0
+86,legner,"	 l eh g n er 
+",lehgner,1.0,1.0,1.0,1.0
+87,herbeck,"	 hh er b eh k 
+",hherbehk,1.0,1.0,1.0,1.0
+88,petered,"	 p iy t er d 
+",piyterd,1.0,1.0,1.0,1.0
+89,kapor,"	 k ey p er 
+",keyper,1.0,1.0,1.0,1.0
+90,thermo,"	 th er m ow 
+",thermow,1.0,1.0,1.0,1.0
+91,serda,"	 s eh r d ah 
+",sehrdah,1.0,1.0,1.0,1.0
+92,tuna,"	 t uw n ah 
+",tuwnah,1.0,1.0,1.0,1.0
+93,gillogly,"	 g ih l ah g l iy 
+",gihlahgliy,1.0,1.0,1.0,1.0
+94,kent,"	 k eh n t 
+",kehnt,1.0,1.0,1.0,1.0
+95,stanleigh,"	 s t ae n l ah 
+",staenliy,0.75,0.7319250702857971,0.7119309306144714,0.6803749203681946
+96,dittmar,"	 d ih t m er 
+",dihtmaar,0.75,0.6546536684036255,0.6014891266822815,0.5410822629928589
+97,precepts,"	 p r iy s eh p t s 
+",priysehpts,1.0,1.0,1.0,1.0
+98,mocks,"	 m aa k s 
+",maaks,1.0,1.0,1.0,1.0
+99,aric,"	 ae r ih k 
+",aerihk,1.0,1.0,1.0,1.0
+100,loci,"	 l ow k iy 
+",lowchiy,0.7142857313156128,0.5976142883300781,0.4185793101787567,0.0
+101,turkel,"	 t er k ah l 
+",terkahl,1.0,1.0,1.0,1.0
+102,cabinda,"	 k ah b ih n d ah 
+",kahbihndah,1.0,1.0,1.0,1.0
+103,gantenbein,"	 g ae n t ih n b ay n 
+",gaentahnbayn,0.9166666865348816,0.8660253882408142,0.8084489107131958,0.7348889112472534
+104,agronomist,"	 ah g r aa n ah m ih s t 
+",ahgraanahmihst,1.0,1.0,1.0,1.0
+105,deely,"	 d iy l iy 
+",diyliy,1.0,1.0,1.0,1.0
+106,carting,"	 k aa r t ih ng 
+",kaartihng,1.0,1.0,1.0,1.0
+107,bulemic,"	 b ah l iy m ih k 
+",byuwlehmihk,0.7272727489471436,0.4670993685722351,0.36834093928337097,0.2790159285068512
+108,matrimony,"	 m ae t r ah m ow n iy 
+",maetrahmowniy,1.0,1.0,1.0,1.0
+109,pitchblende,"	 p ih ch b l eh n d 
+",pihchblehnd,1.0,1.0,1.0,1.0
+110,moonves,"	 m uw n v eh z 
+",muwnv,0.5488116145133972,0.5488116145133972,0.5488116145133972,0.5488116145133972
+111,silverside,"	 s ih l v er s ay d 
+",sihlversayd,1.0,1.0,1.0,1.0
+112,kusa,"	 k uw z ah 
+",kuwzah,1.0,1.0,1.0,1.0
+113,tamanaha,"	 t aa m aa n aa hh ah 
+",taamaanaahhah,1.0,1.0,1.0,1.0
+114,escalera,"	 eh s k aa l eh r ah 
+",ehskahlehrah,0.9166666865348816,0.8660253882408142,0.8084489107131958,0.7348889112472534
+115,programing,"	 p r ow g r ae m ih ng 
+",prowgraemihng,1.0,1.0,1.0,1.0
+116,funding,"	 f ah n d ih ng 
+",fahndihng,1.0,1.0,1.0,1.0
+117,corrode,"	 k er ow d 
+",kaorowd,0.7142857313156128,0.5976142883300781,0.5261597633361816,0.43472087383270264
+118,terminating,"	 t er m ah n ey t ih ng 
+",termahneytihng,1.0,1.0,1.0,1.0
+119,leitzel,"	 l ay t z ah l 
+",laytzahl,1.0,1.0,1.0,1.0
+120,brockmeier,"	 b r aa k m ay er 
+",braakmayer,1.0,1.0,1.0,1.0
+121,kehrer,"	 k eh r er 
+",kehrer,1.0,1.0,1.0,1.0
+122,baidoa,"	 b ay d ow ah 
+",baydowah,1.0,1.0,1.0,1.0
+123,roszell,"	 r aa sh ah l 
+",raasahl,0.8668779134750366,0.7913476228713989,0.6896330118179321,0.5154486894607544
+124,rambled,"	 r ae m b ah l d 
+",raembahld,1.0,1.0,1.0,1.0
+125,branham,"	 b r ae n hh ah m 
+",braenhhahm,1.0,1.0,1.0,1.0
+126,inaugurated,"	 ih n ao g er ey t ih d 
+",ihnaogyereytihd,0.9333333373069763,0.8944271802902222,0.8519583940505981,0.8003203272819519
+127,zandra,"	 z ae n d r ah 
+",zaandrah,0.875,0.7905694246292114,0.6812405586242676,0.5946035385131836
+128,richwhite,"	 r ih ch w ay t 
+",rihchwayt,1.0,1.0,1.0,1.0
+129,lanners,"	 l ae n er z 
+",laenerz,1.0,1.0,1.0,1.0
+130,fremd,"	 f r eh m d 
+",frehmd,1.0,1.0,1.0,1.0
+131,ordinaries,"	 ao r d ah n eh r iy z 
+",aordahnehriyz,1.0,1.0,1.0,1.0
+132,hydropower,"	 hh ay d r ow p aw r 
+",hhaydrowpawer,0.9230769276618958,0.8770580291748047,0.8583000302314758,0.8423627018928528
+133,sherlock,"	 sh er l aa k 
+",sherlahk,0.875,0.7905694246292114,0.7490835785865784,0.7071067690849304
+134,barthram,"	 b aa r th r ae m 
+",baarthraem,1.0,1.0,1.0,1.0
+135,timor,"	 t iy m ao r 
+",tihmer,0.5643211603164673,0.3090914189815521,0.0,0.0
+136,romney,"	 r aa m n iy 
+",raamniy,1.0,1.0,1.0,1.0
+137,tanguay,"	 t ae n g ey 
+",taenggwey,0.7777777910232544,0.6972166895866394,0.5959233641624451,0.5133450627326965
+138,knerr,"	 n eh r 
+",nehr,1.0,1.0,1.0,1.0
+139,lehane,"	 l ah hh ey n 
+",lehhhahn,0.875,0.6123724579811096,0.4005349278450012,0.0
+140,roxie,"	 r aa k s iy 
+",raaksiy,1.0,1.0,1.0,1.0
+141,comdisco,"	 k aa m d ih s k ow 
+",kowmiyskow,0.6333861947059631,0.43707799911499023,0.35426080226898193,0.27338534593582153
+142,forgone,"	 f ao r g aa n 
+",faorgaan,1.0,1.0,1.0,1.0
+143,glutaric,"	 g l uw t ae r ih k 
+",gluwtaarihk,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7016879320144653
+144,thorburn,"	 th ao r b er n 
+",thaorbern,1.0,1.0,1.0,1.0
+145,melon,"	 m eh l ah n 
+",mehlahn,1.0,1.0,1.0,1.0
+146,cheeseburger,"	 ch iy z b er g er 
+",chiyzberger,1.0,1.0,1.0,1.0
+147,promoting,"	 p r ah m ow t ih ng 
+",prowmowtihng,0.8333333134651184,0.7784989476203918,0.7161767482757568,0.6704226732254028
+148,granz,"	 g r ae n t s 
+",graenz,0.7054014205932617,0.6911494135856628,0.6734070777893066,0.6431870460510254
+149,ordinarily,"	 ao r d ah n eh r ah l iy 
+",aordahnehrahliy,1.0,1.0,1.0,1.0
+150,amell,"	 aa m ey l 
+",ahmehl,0.6666666865348816,0.3651483654975891,0.0,0.0
+151,krauter,"	 k r aw t er 
+",krawter,1.0,1.0,1.0,1.0
+152,knesset,"	 n eh s ah t 
+",nehsaht,1.0,1.0,1.0,1.0
+153,polinski,"	 p ah l ih n s k iy 
+",pahlihnskiy,1.0,1.0,1.0,1.0
+154,decoteau,"	 d eh k ah t ow 
+",dehkahtow,1.0,1.0,1.0,1.0
+155,clarken,"	 k l aa r k eh n 
+",klaarkahn,0.8888888955116272,0.8164966106414795,0.7272560000419617,0.660632848739624
+156,overhangs,"	 ow v er hh ae ng z 
+",owverhhaengz,1.0,1.0,1.0,1.0
+157,singley,"	 s ih ng g l iy 
+",sihnggliy,1.0,1.0,1.0,1.0
+158,gassner,"	 g ae s n er 
+",gaesner,1.0,1.0,1.0,1.0
+159,fulfillment,"	 f uh l f ih l m ah n t 
+",fuhlfihlmahnt,1.0,1.0,1.0,1.0
+160,warley,"	 w ao r l iy 
+",waorliy,1.0,1.0,1.0,1.0
+161,duesberg,"	 d uw z b er g 
+",duwzberg,1.0,1.0,1.0,1.0
+162,discusses,"	 d ih s k ah s ah z 
+",dihskahsihz,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7419446706771851
+163,woodbeck,"	 w uh d b eh k 
+",wuhdbehk,1.0,1.0,1.0,1.0
+164,punctuate,"	 p ah ng k ch uw ey t 
+",pahngkchuweyt,1.0,1.0,1.0,1.0
+165,nobuo,"	 n ow b uw ow 
+",nowbuwow,1.0,1.0,1.0,1.0
+166,vandeusen,"	 v ae n d oy s ah n 
+",vaenduwzahn,0.7272727489471436,0.6605782508850098,0.5820091366767883,0.4692470133304596
+167,edan,"	 iy d ah n 
+",iydahn,1.0,1.0,1.0,1.0
+168,socialists,"	 s ow sh ah l ah s t s 
+",sowshahlihsts,0.9230769276618958,0.8770580291748047,0.8255793452262878,0.7611606121063232
+169,clayborn,"	 k l ey b er n 
+",kleybern,1.0,1.0,1.0,1.0
+170,lotty,"	 l aa t iy 
+",laatiy,1.0,1.0,1.0,1.0
+171,kloster,"	 k l ao s t er 
+",klaoster,1.0,1.0,1.0,1.0
+172,lifter,"	 l ih f t er 
+",lihfter,1.0,1.0,1.0,1.0
+173,castruita,"	 k aa s t r uw t ah 
+",kaastruwtah,1.0,1.0,1.0,1.0
+174,median,"	 m iy d iy ah n 
+",miydiyahn,1.0,1.0,1.0,1.0
+175,brimmer,"	 b r ih m er 
+",brihmer,1.0,1.0,1.0,1.0
+176,raitt,"	 r ey t 
+",reyt,1.0,1.0,1.0,1.0
+177,furiously,"	 f y uh r iy ah s l iy 
+",fyuhriyahsliy,1.0,1.0,1.0,1.0
+178,slogging,"	 s l aa g ih ng 
+",slaagihng,1.0,1.0,1.0,1.0
+179,everetts,"	 eh v er ah t s 
+",ehverahts,1.0,1.0,1.0,1.0
+180,dumke,"	 d ah m k iy 
+",dahmkiy,1.0,1.0,1.0,1.0
+181,swearing,"	 s w eh r ih ng 
+",swihrihng,0.8888888955116272,0.8164966106414795,0.7272560000419617,0.660632848739624
+182,timson,"	 t ih m s ah n 
+",tihmsahn,1.0,1.0,1.0,1.0
+183,criminalizing,"	 k r ih m ah n ah l ay z ih ng 
+",krihmahnahlayzihng,1.0,1.0,1.0,1.0
+184,fouhy,"	 f uw iy 
+",fuwiy,1.0,1.0,1.0,1.0
+185,mpg,"	 eh m p iy jh iy 
+",ehmpiyjhiy,1.0,1.0,1.0,1.0
+186,rooming,"	 r uw m ih ng 
+",ruwmihng,1.0,1.0,1.0,1.0
+187,chastain,"	 sh ah s t ey n 
+",shahsteyn,1.0,1.0,1.0,1.0
+188,grutman,"	 g r ah t m ah n 
+",grahtmahn,1.0,1.0,1.0,1.0
+189,steed,"	 s t iy d 
+",stiyd,1.0,1.0,1.0,1.0
+190,expiring,"	 ih k s p ay r ih ng 
+",ihkspayrihng,1.0,1.0,1.0,1.0
+191,sittner,"	 s ih t n er 
+",sihtner,1.0,1.0,1.0,1.0
+192,aerostar's,"	 eh r ow s t aa r z 
+",ehrowstaarz,1.0,1.0,1.0,1.0
+193,multimarket,"	 m ah l t iy m aa r k ih t 
+",mahltiymaarkiht,1.0,1.0,1.0,1.0
+194,teledyne's,"	 t eh l ah d ay n z 
+",tehlahdaynz,1.0,1.0,1.0,1.0
+195,litigations,"	 l ih t ah g ey sh ah n z 
+",lihtahgeyshahnz,1.0,1.0,1.0,1.0
+196,plovers,"	 p l ah v er z 
+",plahverz,1.0,1.0,1.0,1.0
+197,mongillo,"	 m ow ng g ih l ow 
+",mownggihlow,1.0,1.0,1.0,1.0
+198,berrett,"	 b eh r ih t 
+",behriht,1.0,1.0,1.0,1.0
+199,anchormen,"	 ae ng k er m eh n 
+",aengkermihn,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7419446706771851
+200,presbyterians,"	 p r eh s b ih t ih r iy ah n z 
+",prehsbiytihriyahnz,0.9444444179534912,0.9128709435462952,0.8792490363121033,0.8394327163696289
+201,reticent,"	 r eh t ih s ah n t 
+",rehtihsahnt,1.0,1.0,1.0,1.0
+202,expo,"	 eh k s p ow 
+",ehkspow,1.0,1.0,1.0,1.0
+203,percs,"	 p er k s 
+",perks,1.0,1.0,1.0,1.0
+204,pecan,"	 p ah k aa n 
+",piykahn,0.7142857313156128,0.48795002698898315,0.0,0.0
+205,rubeck,"	 r uw b eh k 
+",ruwbehk,1.0,1.0,1.0,1.0
+206,baldo,"	 b aa l d ow 
+",baaldow,1.0,1.0,1.0,1.0
+207,vons's,"	 v aa n z ih z 
+",vaanzihz,1.0,1.0,1.0,1.0
+208,misawa,"	 m ih s aa w ah 
+",miysaawah,0.8888888955116272,0.8164966106414795,0.7272560000419617,0.660632848739624
+209,sarazin,"	 s aa r aa z iy n 
+",saaraaziyn,1.0,1.0,1.0,1.0
+210,modestia,"	 m ow d eh s t y ah 
+",mowdehstyah,1.0,1.0,1.0,1.0
+211,choe,"	 ch ow 
+",chuw,0.75,0.5,0.0,0.0
+212,stemberg,"	 s t eh m b er g 
+",stehmberg,1.0,1.0,1.0,1.0
+213,valverde,"	 v aa l v eh r d ey 
+",vaalvehrdiy,0.9090909361839294,0.8528028726577759,0.8285952210426331,0.8070557117462158
+214,missal,"	 m ih s ah l 
+",mihsahl,1.0,1.0,1.0,1.0
+215,disinflation,"	 d ih s ih n f l ey sh ah n 
+",dihsihnfleyshahn,1.0,1.0,1.0,1.0
+216,bono,"	 b ow n ow 
+",bownow,1.0,1.0,1.0,1.0
+217,kilzer,"	 k ih l z er 
+",kihlzer,1.0,1.0,1.0,1.0
+218,lamica,"	 l ae m ih k ah 
+",laamiykah,0.7777777910232544,0.6236095428466797,0.3852654695510864,0.0
+219,characterizations,"	 k eh r ah k t er ih z ey sh ah n z 
+",kehrihkterahzeyshahnz,1.0,1.0,0.924956738948822,0.8137973546981812
+220,gilleran,"	 g ih l er ae n 
+",gihlerahn,0.8888888955116272,0.8164966106414795,0.7828302979469299,0.750623881816864
+221,sharry,"	 sh aa r iy 
+",shaariy,1.0,1.0,1.0,1.0
+222,kownacki,"	 k aw n aa k iy 
+",kawnaatskiy,0.8181818127632141,0.7567874789237976,0.6853033900260925,0.5877283811569214
+223,belue,"	 b eh l y uw 
+",behluw,0.8464817404747009,0.7571162581443787,0.6256009340286255,0.5115078091621399
+224,ritt's,"	 r ih t s 
+",rihts,1.0,1.0,1.0,1.0
+225,cyrix's,"	 s ay r ih k s ih z 
+",sayrihksihz,1.0,1.0,1.0,1.0
+226,sweetens,"	 s w iy t ah n z 
+",swiytahnz,1.0,1.0,1.0,1.0
+227,yott,"	 y aa t 
+",yaat,1.0,1.0,1.0,1.0
+228,biddle's,"	 b ih d ah l z 
+",bihdahlz,1.0,1.0,1.0,1.0
+229,trapani,"	 t r aa p aa n iy 
+",traapaaniy,1.0,1.0,1.0,1.0
+230,lucrative,"	 l uw k r ah t ih v 
+",luwkrahtihv,1.0,1.0,1.0,1.0
+231,pekarek,"	 p eh k er ih k 
+",pehkaarehk,0.800000011920929,0.596284806728363,0.44990381598472595,0.3356891870498657
+232,nocella,"	 n ow ch eh l ah 
+",nowchehlah,1.0,1.0,1.0,1.0
+233,brine,"	 b r ay n 
+",brayn,1.0,1.0,1.0,1.0
+234,dissects,"	 d ay s eh k t s 
+",dihsehkts,0.7777777910232544,0.6972166895866394,0.6552698612213135,0.6104735732078552
+235,briccetti,"	 b r ih ch eh t iy 
+",briychehtiy,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7016879320144653
+236,chedester,"	 ch eh d ih s t er 
+",chehdahster,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7016879320144653
+237,dignitaries,"	 d ih g n ah t eh r iy z 
+",dihgnahtehriyz,1.0,1.0,1.0,1.0
+238,cologne,"	 k ah l ow n 
+",kahlown,1.0,1.0,1.0,1.0
+239,randazzo,"	 r aa n d aa z ow 
+",raendaezow,0.800000011920929,0.6666666865348816,0.48428383469581604,0.0
+240,millipore,"	 m ih l ih p ao r 
+",miylihpaoriy,0.75,0.6908493041992188,0.6232367753982544,0.5706745982170105
+241,waterbeds,"	 w ao t er b eh d z 
+",waoterbehdz,1.0,1.0,1.0,1.0
+242,welden,"	 w eh l d ah n 
+",wehldahn,1.0,1.0,1.0,1.0
+243,bangle,"	 b ae ng g ah l 
+",baenggahl,1.0,1.0,1.0,1.0
+244,seismologist,"	 s ay z m aa l ah jh ah s t 
+",sayzmaalahjhihst,0.9375,0.9013878107070923,0.862341046333313,0.815355122089386
+245,grundman,"	 g r ah n d m ah n 
+",grahndmahn,1.0,1.0,1.0,1.0
+246,mertice,"	 m eh r t ih s 
+",mertihs,0.8668779134750366,0.7913476228713989,0.6896330118179321,0.6129752397537231
+247,gesture,"	 jh eh s ch er 
+",jhehscher,1.0,1.0,1.0,1.0
+248,thirteen's,"	 th er t iy n z 
+",thertiynz,1.0,1.0,1.0,1.0
+249,rots,"	 r aa t s 
+",raats,1.0,1.0,1.0,1.0
+250,coauthor,"	 k ow aa th er 
+",kowaather,1.0,1.0,1.0,1.0
+251,seymour's,"	 s iy m ao r z 
+",siymaorz,1.0,1.0,1.0,1.0
+252,valladares,"	 v aa l aa d aa r eh s 
+",vaalaadaarehs,1.0,1.0,1.0,1.0
+253,rescigno,"	 r eh s ch iy g n ow 
+",rehschiygnow,1.0,1.0,1.0,1.0
+254,gooders,"	 g uh d er z 
+",guhderz,1.0,1.0,1.0,1.0
+255,algeria,"	 ae l jh ih r iy ah 
+",aeljhiyriyah,0.9166666865348816,0.8660253882408142,0.8084489107131958,0.7348889112472534
+256,disguising,"	 d ih s g ay z ih ng 
+",dihsgayzihng,1.0,1.0,1.0,1.0
+257,unrestricted,"	 ah n r iy s t r ih k t ih d 
+",ahnriystrihktihd,1.0,1.0,1.0,1.0
+258,kit,"	 k ih t 
+",kiht,1.0,1.0,1.0,1.0
+259,franzese,"	 f r aa n z ey z iy 
+",fraanziyziy,0.9090909361839294,0.8528028726577759,0.787498950958252,0.7016879320144653
+260,patriarchs,"	 p ey t r iy aa r k s 
+",peytriyaarks,1.0,1.0,1.0,1.0
+261,everybody's,"	 eh v r iy b aa d iy z 
+",ehvriybaodiyz,0.9230769276618958,0.8770580291748047,0.8255793452262878,0.7611606121063232
+262,banik,"	 b ae n ih k 
+",baenihk,1.0,1.0,1.0,1.0
+263,dakotas,"	 d ah k ow t ah z 
+",dahkowtahz,1.0,1.0,1.0,1.0
+264,howler,"	 hh aw l er 
+",hhawler,1.0,1.0,1.0,1.0
+265,cohron,"	 k aa r ah n 
+",kaorahn,0.8571428656578064,0.7559289336204529,0.6144368052482605,0.48892301321029663
+266,misperceived,"	 m ih s p er s iy v d 
+",mihspersiyvd,1.0,1.0,1.0,1.0
+267,noriegas,"	 n ao r iy ey g ah s 
+",naoriygahz,0.7368576526641846,0.732295036315918,0.6917210817337036,0.6264975666999817
+268,robuck,"	 r ow b ah k 
+",rowbahk,1.0,1.0,1.0,1.0
+269,scoot,"	 s k uw t 
+",skuwt,1.0,1.0,1.0,1.0
+270,ataturk's,"	 ae t ah t er k s 
+",aetahterks,1.0,1.0,1.0,1.0
+271,integrates,"	 ih n t ah g r ey t s 
+",ihntahgreyts,1.0,1.0,1.0,1.0
+272,ashkenazis,"	 ae sh k ah n aa z iy z 
+",aeshkahnaazihs,0.8571428656578064,0.8516306281089783,0.8469076156616211,0.8385766744613647
+273,vagueness,"	 v ey g n ih s 
+",veygnahs,0.875,0.7905694246292114,0.6812405586242676,0.5946035385131836
+274,altschiller,"	 ao l ch ih l er 
+",aelchihler,0.8999999761581421,0.8366600275039673,0.8084489107131958,0.7825422883033752
+275,doubtfire's,"	 d aw t f ay er z 
+",dawtfayerz,1.0,1.0,1.0,1.0
+276,set,"	 s eh t 
+",seht,1.0,1.0,1.0,1.0
+277,irremediable,"	 ih r ih m iy d iy ah b ah l 
+",ihrihmiydiyahbahl,1.0,1.0,1.0,1.0
+278,farbman,"	 f aa r b m ah n 
+",faarbmahn,1.0,1.0,1.0,1.0
+279,hertog,"	 hh er t aa g 
+",hhertahg,0.875,0.7905694246292114,0.7490835785865784,0.7071067690849304
+280,mcgrane,"	 m ah g r ey n 
+",mahgreyn,1.0,1.0,1.0,1.0
+281,lyday,"	 l ay d ey 
+",laydey,1.0,1.0,1.0,1.0
+282,illegal,"	 ih l iy g ah l 
+",ihleyjhahl,0.699999988079071,0.5577733516693115,0.430509090423584,0.0
+283,raina,"	 r ey n ah 
+",reynah,1.0,1.0,1.0,1.0
+284,fundamentalism,"	 f ah n d ah m eh n t ah l ih z ah m 
+",fahndahmehntahlihzahm,1.0,1.0,1.0,1.0
+285,tanzanian,"	 t ae n z ey n iy ah n 
+",taenzeyniyahn,1.0,1.0,1.0,1.0
+286,mccourt,"	 m ah k ao r t 
+",mahkaort,1.0,1.0,1.0,1.0
+287,estrada,"	 eh s t r aa d ah 
+",ehstraadah,1.0,1.0,1.0,1.0
+288,decoding,"	 d ih k ow d ih ng 
+",dihkowdihng,1.0,1.0,1.0,1.0
+289,olney,"	 ow l n iy 
+",aolniy,0.8333333134651184,0.7071067690849304,0.632878303527832,0.5372849702835083
+290,mussolini's,"	 m uw s ow l iy n iy z 
+",mahsaoliyniyz,0.7692307829856873,0.6201736927032471,0.5624181032180786,0.5142401456832886
+291,legerdemain,"	 l eh jh er d ah m ey n 
+",lehdermeydihn,0.7835054993629456,0.549808919429779,0.3739914000034332,0.0
+292,polyandry,"	 p aa l iy ae n d r iy 
+",paalyahndriy,0.8433740735054016,0.7512131333351135,0.640263557434082,0.531187891960144
+293,brusky,"	 b r ah s k iy 
+",brahskiy,1.0,1.0,1.0,1.0
+294,espeseth,"	 eh s p ih s ih th 
+",ehspihsihth,1.0,1.0,1.0,1.0
+295,anker,"	 ae ng k er 
+",aengker,1.0,1.0,1.0,1.0
+296,numbingly,"	 n ah m ih ng l iy 
+",nahmihngliy,1.0,1.0,1.0,1.0
+297,tew,"	 ch uw 
+",chuw,1.0,1.0,1.0,1.0
+298,hobs,"	 hh aa b z 
+",hhaabz,1.0,1.0,1.0,1.0
+299,balmes,"	 b aa l m eh s 
+",baamz,0.43904930353164673,0.3470989465713501,0.2822624444961548,0.0
+300,manufacturer,"	 m ae n y ah f ae k ch er er 
+",maenyahfaekcherer,1.0,1.0,1.0,1.0
+301,witts,"	 w ih t s 
+",wihts,1.0,1.0,1.0,1.0
+302,dwindles,"	 d w ih n d ah l z 
+",dwihndahlz,1.0,1.0,1.0,1.0
+303,shana,"	 sh ae n ah 
+",shaenah,1.0,1.0,1.0,1.0
+304,murmured,"	 m er m er d 
+",mermuhrd,0.75,0.6546536684036255,0.5261597633361816,0.41113361716270447
+305,flemington,"	 f l eh m ih ng t ah n 
+",flehmihngtahn,1.0,1.0,1.0,1.0
+306,expansionist,"	 ih k s p ae n sh ah n ih s t 
+",ihkspaenshahnihst,1.0,1.0,1.0,1.0
+307,provident,"	 p r aa v ih d ah n t 
+",praavahdahnt,0.9166666865348816,0.8660253882408142,0.8084489107131958,0.7348889112472534
+308,kost,"	 k aa s t 
+",kaast,1.0,1.0,1.0,1.0
+309,scharer,"	 sh eh r er 
+",shehrer,1.0,1.0,1.0,1.0
+310,luelle,"	 l uw l 
+",luwehl,0.6666666865348816,0.5163977742195129,0.4091569185256958,0.0
+311,ecstatically,"	 eh k s t ae t ih k l iy 
+",ihkstaetihkahliy,0.8125,0.7719023823738098,0.7285661101341248,0.6739047169685364
+312,manually,"	 m ae n y uw ah l iy 
+",maenyuwahliy,1.0,1.0,1.0,1.0
+313,comely,"	 k ah m l iy 
+",kahmliy,1.0,1.0,1.0,1.0
+314,acoustic,"	 ah k uw s t ih k 
+",ahkuwstihk,1.0,1.0,1.0,1.0
+315,livingrooms,"	 l ih v ih ng r uw m z 
+",lihvihngruwmz,1.0,1.0,1.0,1.0
+316,benja,"	 b eh n jh ah 
+",behnjhah,1.0,1.0,1.0,1.0
+317,schranz,"	 sh r ae n s 
+",shraenz,0.8571428656578064,0.8451542258262634,0.8313758969306946,0.809106707572937
+318,start-ups,"	 s t aa r t ah p s 
+",staartahps,1.0,1.0,1.0,1.0
+319,seaq,"	 s iy k 
+",siyk,1.0,1.0,1.0,1.0
+320,egotism,"	 iy g ah t ih z ah m 
+",iygahtihzahm,1.0,1.0,1.0,1.0
+321,abetting,"	 ah b eh t ih ng 
+",ahbehtihng,1.0,1.0,1.0,1.0
+322,cashes,"	 k ae sh ih z 
+",kaeshihz,1.0,1.0,1.0,1.0
+323,laverdure,"	 l aa v er d uh r iy 
+",laaverduhriy,1.0,1.0,1.0,1.0
+324,stant,"	 s t ae n t 
+",staent,1.0,1.0,1.0,1.0
+325,flies,"	 f l ay z 
+",flayz,1.0,1.0,1.0,1.0
+326,gasperini,"	 g aa s p er iy n iy 
+",gaasperiyniy,1.0,1.0,1.0,1.0
+327,wrights,"	 r ay t s 
+",rayts,1.0,1.0,1.0,1.0
+328,conundrum,"	 k ah n ah n d r ah m 
+",kahnahndrahm,1.0,1.0,1.0,1.0
+329,lenker,"	 l eh ng k er 
+",lehngker,1.0,1.0,1.0,1.0
+330,telescopes,"	 t eh l ah s k ow p s 
+",tehlahskowps,1.0,1.0,1.0,1.0
+331,kulikowski,"	 k y uw l ih k ao f s k iy 
+",kyuwlihkaofskiy,1.0,1.0,1.0,1.0
+332,dort,"	 d ao r t 
+",daort,1.0,1.0,1.0,1.0
+333,zanghi,"	 z aa n g iy 
+",zaenjhiy,0.625,0.4225771129131317,0.0,0.0
+334,feiner,"	 f ay n er 
+",fayner,1.0,1.0,1.0,1.0
+335,spurts,"	 s p er t s 
+",sperts,1.0,1.0,1.0,1.0
+336,coverdale,"	 k ah v er d ey l 
+",kahverdeyl,1.0,1.0,1.0,1.0
+337,danek,"	 d ae n ih k 
+",daenihk,1.0,1.0,1.0,1.0
+338,meats,"	 m iy t s 
+",miyts,1.0,1.0,1.0,1.0
+339,potenza,"	 p ow t eh n z ah 
+",powtehnzah,1.0,1.0,1.0,1.0
+340,bigford,"	 b ih g f er d 
+",bihgferd,1.0,1.0,1.0,1.0
+341,scarlet,"	 s k aa r l ah t 
+",skaarliht,0.8888888955116272,0.8164966106414795,0.7272560000419617,0.660632848739624
+342,tecumseh,"	 t ah k ah m s ah 
+",tihkahmsah,0.8999999761581421,0.8366600275039673,0.8084489107131958,0.7825422883033752
+343,kampmann,"	 k ae m p m ah n 
+",kaempmahn,1.0,1.0,1.0,1.0
+344,chideya,"	 ch ih d iy y ah 
+",chihdiyyah,1.0,1.0,1.0,1.0
+345,clothes,"	 k l ow dh z 
+",klowdhz,1.0,1.0,1.0,1.0
+346,ticked,"	 t ih k t 
+",tihkt,1.0,1.0,1.0,1.0
+347,food's,"	 f uw d z 
+",fuwdz,1.0,1.0,1.0,1.0
+348,uncorked,"	 ah n k ao r k t 
+",ahnkaorkt,1.0,1.0,1.0,1.0
+349,swanton,"	 s w aa n t ah n 
+",swaantahn,1.0,1.0,1.0,1.0
+350,mcquitty,"	 m ah k w ih t iy 
+",mahkwihtiy,1.0,1.0,1.0,1.0
+351,waning,"	 w ey n ih ng 
+",weynihng,1.0,1.0,1.0,1.0
+352,mcdonald,"	 m ah k d aa n ah l d 
+",mahkdaanahld,1.0,1.0,1.0,1.0
+353,informer,"	 ih n f ao r m er 
+",ihnfaormer,1.0,1.0,1.0,1.0
+354,kinburn,"	 k ih n b er n 
+",kihnbern,1.0,1.0,1.0,1.0
+355,stenz,"	 s t eh n z 
+",stehns,0.8333333134651184,0.8164966106414795,0.795536458492279,0.7598356604576111
+356,alleles,"	 ah l eh l iy z 
+",ahlehlehs,0.6666666865348816,0.64549720287323,0.6227700710296631,0.5873948931694031
+357,quek,"	 k w eh k 
+",kwehk,1.0,1.0,1.0,1.0
+358,bugaboo,"	 b ah g ah b uw 
+",buwgahbuw,0.7777777910232544,0.6972166895866394,0.6552698612213135,0.6104735732078552
+359,coerced,"	 k ow er s t 
+",kaorst,0.7054014205932617,0.4887164533138275,0.3728101849555969,0.0
+360,christal,"	 k r ih s t ah l 
+",krihstahl,1.0,1.0,1.0,1.0
+361,fowles,"	 f aw ah l z 
+",fawlz,0.6703200340270996,0.5805141925811768,0.42423102259635925,0.0
+362,aircraft,"	 eh r k r ae f t 
+",ehrkraeft,1.0,1.0,1.0,1.0
+363,arguelles,"	 aa r g ey l eh s 
+",aargyuwlz,0.5965595245361328,0.447419673204422,0.37456122040748596,0.295580118894577
+364,vandenheuvel,"	 v ae n d ah n hh oy v ah l 
+",vaendahnhhuwvahl,0.875,0.8366600275039673,0.795536458492279,0.7447819709777832
+365,destined,"	 d eh s t ih n d 
+",dihstaynd,0.7777777910232544,0.6236095428466797,0.3852654695510864,0.0
+366,walloch,"	 w ao l ah k 
+",waalahk,0.8571428656578064,0.7559289336204529,0.6144368052482605,0.48892301321029663
+367,quattlebaum,"	 k w ao t ah l b aw m 
+",kwaatahlbawm,0.9166666865348816,0.8660253882408142,0.8084489107131958,0.7348889112472534
+368,initio,"	 ih n ih t iy ow 
+",ihnihtiyow,1.0,1.0,1.0,1.0
+369,tesmer,"	 t eh s ah m er 
+",tehsmer,0.7514773011207581,0.6860017776489258,0.5978276133537292,0.446831077337265
+370,washable,"	 w aa sh ah b ah l 
+",waashahbahl,1.0,1.0,1.0,1.0
+371,petromin,"	 p eh t r ah m ih n 
+",pehtrowmihn,0.8181818127632141,0.7567874789237976,0.6853033900260925,0.5877283811569214
+372,gujarat,"	 g y uw jh er ae t 
+",gyuwjheraet,1.0,1.0,1.0,1.0
+373,confounded,"	 k ah n f aw n d ih d 
+",kahnfawndihd,1.0,1.0,1.0,1.0
+374,shahrzad,"	 sh aa r z ae d 
+",shaarzahd,0.8888888955116272,0.8164966106414795,0.7828302979469299,0.750623881816864
+375,sporophytes,"	 s p ao r f ay t s 
+",spaorfayts,1.0,1.0,1.0,1.0
+376,indisputable,"	 ih n d ih s p y uw t ah b ah l 
+",ihndihspihtahbahl,0.8319469094276428,0.7983367443084717,0.7626168727874756,0.7189086079597473
+377,droopy,"	 d r uw p iy 
+",druwpiy,1.0,1.0,1.0,1.0
+378,camarena,"	 k aa m aa r eh n ah 
+",kaamaarehnah,1.0,1.0,1.0,1.0
+379,brashear,"	 b r ae sh iy r 
+",brahshiyr,0.8888888955116272,0.8164966106414795,0.7272560000419617,0.5969491600990295
+380,metalworker,"	 m eh t ah l w er k er 
+",mehtahlwerker,1.0,1.0,1.0,1.0
+381,amadou,"	 ae m ah d uw 
+",aemahduw,1.0,1.0,1.0,1.0
+382,ramrod,"	 r ae m r aa d 
+",raemraad,1.0,1.0,1.0,1.0
+383,kumho,"	 k ah m hh ow 
+",kahmhhow,1.0,1.0,1.0,1.0
+384,plastered,"	 p l ae s t er d 
+",plaesterd,1.0,1.0,1.0,1.0
+385,lehrman,"	 l eh r m ah n 
+",lehrmahn,1.0,1.0,1.0,1.0
+386,crogan,"	 k r ow g ah n 
+",krowgahn,1.0,1.0,1.0,1.0
+387,colossally,"	 k ah l aa s ah l iy 
+",kahlaasahliy,1.0,1.0,1.0,1.0
+388,kemnitz,"	 k eh m n ih t s 
+",kehmnihts,1.0,1.0,1.0,1.0
+389,klintworth,"	 k l ih n t w er th 
+",klihntwerth,1.0,1.0,1.0,1.0
+390,demuro,"	 d ih m uh r ow 
+",dihmuhrow,1.0,1.0,1.0,1.0
+391,muavenet,"	 m uw ah v eh n ih t 
+",muwvahneyt,0.7368576526641846,0.5178108215332031,0.3046500086784363,0.0
+392,lasumma,"	 l ah s uw m ah 
+",lahsuwmah,1.0,1.0,1.0,1.0
+393,marsala,"	 m aa r s aa l ah 
+",maarsaalah,1.0,1.0,1.0,1.0
+394,villalba,"	 v iy l aa l b ah 
+",viylaalbah,1.0,1.0,1.0,1.0
+395,haskell,"	 hh ae s k ah l 
+",hhaeskahl,1.0,1.0,1.0,1.0
+396,midamerica,"	 m ih d ah m eh r ih k ah 
+",mihdahmehrihkah,1.0,1.0,1.0,1.0
+397,pope's,"	 p ow p s 
+",powps,1.0,1.0,1.0,1.0
+398,bouffard,"	 b uw f aa r d 
+",buwfaard,1.0,1.0,1.0,1.0
+399,cokes,"	 k ow k s 
+",kowks,1.0,1.0,1.0,1.0
