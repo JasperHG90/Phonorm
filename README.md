@@ -85,3 +85,5 @@ At this point, your environment ready to be used.
 If you want to train your own models, you should check out the [modeling](https://github.com/JasperHG90/phonorm/tree/master/modeling) folder for examples.
 
 If you want to use the pre-trained models, please see the [examples](https://github.com/JasperHG90/phonorm/tree/master/examples/) folder.
+
+![CFI](img/center-for-innovation.png)
