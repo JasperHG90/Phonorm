@@ -86,4 +86,4 @@ If you want to train your own models, you should check out the [modeling](https:
 
 If you want to use the pre-trained models, please see the [examples](https://github.com/JasperHG90/phonorm/tree/master/examples/) folder.
 
-![CFI](img/center-for-innovation.png)
+![CFI](img/center-for-innovation.png){:height="36px" width="36px"}
