@@ -1,6 +1,8 @@
 ---
 title: 'Phonetic Text Normalization using Recurrent Neural Networks'
-author: "Jasper Ginn, Arvid Halma, Aaron Swaving & Boaz Manger"
+author: | 
+ | Jasper Ginn, Arvid Halma, Aaron Swaving & Boaz Manger
+ | Leiden University Center for Innovation
 date: "January 10, 2019"
 output:
   pdf_document: #default
@@ -29,7 +31,7 @@ csl: ieee.csl
 #  @UKGOVGPG
 ---
 
-# Introduction^[All code and data available on GitHub.^[You can find the repository at <https://github.com/JasperHG90/phonorm>]]
+# Introduction^[All code and data available on GitHub. You can find the repository at <https://github.com/JasperHG90/phonorm>]
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(fig.pos="H", fig.width = 5, fig.height = 4,
